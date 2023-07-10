@@ -1,0 +1,14 @@
+state={
+	id=912
+	name="STATE_912"
+	history={
+		add_core_of = TEJ
+		owner = TEJ
+	}
+	provinces={
+		1954 2019 5038 5061 6785 6987 10740 10894 12369 12728 
+	}
+	manpower=1628421
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

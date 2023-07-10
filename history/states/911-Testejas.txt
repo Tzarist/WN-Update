@@ -1,0 +1,14 @@
+state={
+	id=911
+	name="STATE_911"
+	history={
+		owner = TEJ
+		add_core_of = TEJ
+	}
+	provinces={
+		1998 2055 3875 3972 4955 9773 9908 12301 12624 12848 12893 
+	}
+	manpower=1201920
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

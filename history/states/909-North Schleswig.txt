@@ -1,0 +1,14 @@
+state={
+	id=909
+	name="STATE_909"
+	history={
+		owner = GER
+		add_core_of = GER
+	}
+	provinces={
+		332 11251 
+	}
+	manpower=201901
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

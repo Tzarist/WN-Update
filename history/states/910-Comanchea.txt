@@ -1,0 +1,17 @@
+state={
+	id=910
+	name="STATE_910"
+	history={
+		victory_points = {
+			4975 1 
+		}
+		add_core_of = TEJ
+		owner = TEJ
+	}
+	provinces={
+		868 1738 2102 3867 3883 4975 8070 10642 10867 12627 12684 12720 12791 
+	}
+	manpower=502829
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
