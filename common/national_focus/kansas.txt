@@ -1,0 +1,78 @@
+﻿focus_tree = {
+	id = kansas_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KAN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_postion = { x = 50 y = 1000}
+
+	focus = {
+		id = colonial_economic_recovery_plan
+		icon = GFX_colonial_economic_recovery_plan
+		x = 30
+		y = 1
+		#relative_position_id = colonial_economic_recovery_plan
+
+		available = {
+
+		}
+		bypass = {
+
+		}
+
+		cost = 1
+		#prerequisite = { focus = CAN_trade_fleet focus = CAN_degauss_ship_hulls }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 40
+			add_stability = 0.2
+			add_offsite_building = {
+				type = consumer goods_factory level = 1 }
+		}
+		ai_will_do = {
+		}
+	}		
+	focus = {
+		id = a_new_age
+		icon = GFX_a_new_age
+		x = 0
+		y = 1
+		relative_position_id = colonial_economic_recovery_plan
+
+		available = {
+
+		}
+		bypass = {
+
+		}
+
+		cost = 1
+		prerequisite = { focus = colonial_economic_recovery_plan }
+
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 20
+		}
+		ai_will_do = {
+		}
+	}
+
+}		
