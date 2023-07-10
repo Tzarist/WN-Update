@@ -61,18 +61,20 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 55
-	fascism = 25
-	communism = 15
-	neutrality = 5
+	democratic = 35
+	fascism = 33
+	communism = 0
+	neutrality = 26
+	raronism = 4
+	theologism = 2
 }
 
 create_country_leader = {
 	name = "Robert Alexander"
-	desc = ""
+	desc = "robertalexander_description"
 	picture = "robert.dds"
 	ideology = conservatism
-	traits = {
+	traits = { hawk }
 		#
 	}
 }

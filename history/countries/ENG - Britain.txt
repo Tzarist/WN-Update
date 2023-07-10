@@ -188,24 +188,13 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = LOU
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = NEN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = DIX
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = QUE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = CAN
@@ -213,7 +202,37 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
 		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = DIX
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = NEN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.3
+	}
+	set_autonomy = {
+		target = LOU
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.3
+	}
+	set_autonomy = {
+		target = SHA
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}

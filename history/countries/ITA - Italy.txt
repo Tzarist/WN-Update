@@ -1,4 +1,4 @@
-﻿capital = 378
+capital = 2
 
 # Starting tech
 set_technology = {
@@ -61,18 +61,62 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 6
-	communism = 1
+	democratic = 10
+	fascism = 19
+	communism = 26
 	neutrality = 40
-	theologism = 3
+	raronism = 0
+	theologism = 5
 }
 
 create_country_leader = {
-	name = "Samuel Jackson"
-	desc = "Samuel Jackson is the current president of California. Originally born to Scottish Immigrant parents in a lower class, he would work his way up as a true rags to riches story becoming one of the wealthist people in California from various investments. He would be elected in 1930 with a hopeful start under the banner of the Federal Party. But things turned sour when the Stock Markets in London and Paris crashed leaving millions of Californians out of jobs. Jackson tried his best to combat the losses and requested financial help from Britain and other European powers, but many people in his party want to stay strictly neutal and out of world affaris leading him to become even more unpopular."
-	picture = "samueljackson.dds"
-	ideology = moderatism
+	name = "Alfonso II"
+	desc = "Alfonso II was never supposed to be King, he came to the throne after the sudden death of his father King Ranieri. He is a figurehead for the Italian Parliament after his father attempted to consolidate power around the Italian throne. Seen as a weak and incompetent leader there are worries that he will befall the same fate as his uncle Ferdinand II who was assassinated by an anarchist. In an increasingly radicalized Italy, the Sicilian monarchy seems to be on the way out. But with the backing of powerful oligarchs and Europe's monarchs, there may be hope on the horizon for Alfonso to restore the name of the Monarchy in the eyes of the Italian people by using the nationalistic drive of war to reclaim the loss Italian heartland of Turin from the vile French."
+	picture = "alfonsoii.dds"
+	ideology = oligarchism
+	traits = { autocratic_imperialist }
+	expire = "1945.1.1.12"
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bentio Mussolini"
+	desc = ""
+	picture = "mussolinicommie.dds"
+	ideology = maximalisism
+	traits = { dictator }
+	expire = "1945.1.1.12"
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Roberto Farinacci"
+	desc = ""
+	picture = "farinacci.dds"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Taloria Swiftia"
+	desc = ""
+	picture = "robert.dds"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eugenio Pacelli"
+	desc = ""
+	picture = "robert.dds"
+	ideology = biblism
 	traits = {
 		#
 	}
@@ -92,4 +136,3 @@ create_country_leader = {
 		neutrality = 50
 	}
 }
-

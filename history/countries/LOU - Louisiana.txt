@@ -54,17 +54,29 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = raronism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 53
-	fascism = 20
-	communism = 7
-	neutrality = 20
+	democratic = 29
+	fascism = 9
+	communism = 4
+	neutrality = 12
+	raronism = 40
+	theologism = 6
+}
+
+create_country_leader = {
+	name = "Mary Irene Curzon"
+	desc = "marycurzon_description"
+	picture = "marycurzon.dds"
+	ideology = curzonism
+	traits = { popular_figurehead }
+	expire = "1945.1.1.12"
+	}
 }
 
 create_country_leader = {
