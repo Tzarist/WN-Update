@@ -1,4 +1,8 @@
 #reload countrycolors
+SHA = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 155 62 51 }
+}
 JKM = {
 	color = rgb { 24  206  24 }
 	color_ui = rgb { 24  206  24 }
