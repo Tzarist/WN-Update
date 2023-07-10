@@ -1,0 +1,20 @@
+state={
+	id=917
+	name="STATE_917"
+	history={
+		owner = DFI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		4278 4291 4395 7250 7395 12105 12208 12295 
+	}
+	manpower=6348200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
