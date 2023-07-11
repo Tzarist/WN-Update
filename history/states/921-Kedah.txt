@@ -1,0 +1,16 @@
+state={
+	id=921
+	name="STATE_921"
+	history={
+		owner = SIA
+		add_core_of = MAL
+		add_core_of = SIA
+	}
+	provinces={
+		1291 7342 12144 
+	}
+	manpower=893200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

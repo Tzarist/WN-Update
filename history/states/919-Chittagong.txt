@@ -1,14 +1,9 @@
-
 state={
-	id=430
-	name="STATE_430"
-
+	id=919
+	name="STATE_919"
 	history={
 		add_core_of = BAN
 		owner = RAJ
-		victory_points = {
-			11929 1 
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -22,11 +17,10 @@ state={
 		add_core_of = RAJ
 
 	}
-
 	provinces={
-		4616 7565 7662 9993 10389 10416 10443 11929 12338 12423 13208 
+		1075 7179 7634 9991 11968 12010 12010 
 	}
-	manpower=31973300
+	manpower=10973300
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

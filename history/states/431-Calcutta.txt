@@ -1,15 +1,18 @@
+
 state={
 	id=431
 	name="STATE_431"
 	resources={
 		steel=13.000
-		# tungsten=11.000
 	}
 
 	history={
 		owner = RAJ
+		add_core_of = PAK
+		add_core_of = RAJ
+		add_core_of = BAN
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 2
@@ -26,11 +29,10 @@ state={
 	}
 
 	provinces={
-		1159 1609 1656 4062 4204 4245 4435 4644 7220 7475 7537 7565 7593 10077 12050 12338 
+		1159 1609 2843 4062 4162 4204 4245 4644 7078 7124 7220 9935 10035 10077 11911 12050 
 	}
-	manpower=18778100
+	manpower=20778100
 	buildings_max_level_factor=1.000
 	state_category=city
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

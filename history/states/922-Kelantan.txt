@@ -1,0 +1,23 @@
+state={
+	id=922
+	name="STATE_922"
+	history={
+		owner = SIA
+		add_core_of = MAL
+		add_core_of = SIA
+		victory_points = {
+			7329 1 
+		}
+		7329 = {
+				naval_base = 1
+
+		}
+	}
+	provinces={
+		4355 7329 10227 12199 
+	}
+	manpower=193200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

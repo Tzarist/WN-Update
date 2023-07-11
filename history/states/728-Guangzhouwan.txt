@@ -1,10 +1,8 @@
+
 state={
 	id=728
 	name="STATE_728"
-	manpower = 200000
-	
-	state_category = enclave
-	
+
 	history={
 		owner = FRA
 		add_core_of = CHI
@@ -13,13 +11,18 @@ state={
 			infrastructure = 2
 			11981 = {
 				naval_base = 1
+
 			}
+
 		}
-	}
-	
-	provinces={
-		11981 
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		1018 1469 4023 4121 4160 4177 4656 7135 7192 10004 10105 11926 11981 
+	}
+	manpower=3200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
