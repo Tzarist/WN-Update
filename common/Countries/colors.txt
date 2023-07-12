@@ -1,4 +1,8 @@
 #reload countrycolors
+SHA = {
+	color = rgb { 155 62 51 }
+	color_ui = rgb { 155 62 51 }
+}
 ICM = {
 	color = rgb { 235  235  235 }
 	color_ui = rgb { 235  235  235 }
