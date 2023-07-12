@@ -1,4 +1,8 @@
 #reload countrycolors
+ICM = {
+	color = rgb { 235  235  235 }
+	color_ui = rgb { 235  235  235 }
+}
 JKM = {
 	color = rgb { 24  206  24 }
 	color_ui = rgb { 24  206  24 }
