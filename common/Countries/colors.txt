@@ -1,4 +1,13 @@
 #reload countrycolors
+
+LMT = {
+	color = rgb { 216  36  48 }
+	color_ui = rgb { 216  36  48 }
+}
+SOV = {
+	color = rgb { 65  90  59 }
+	color_ui = rgb { 65  90  59 }
+}
 SHA = {
 	color = rgb { 155 62 51 }
 	color_ui = rgb { 155 62 51 }
@@ -74,11 +83,6 @@ CAL = {
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
-}
-
-SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
 }
 SWE = {
 	color = rgb { 36 132 247 }
@@ -214,8 +218,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 255  204  0 }
+	color_ui = rgb { 255  204  0 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -322,8 +326,8 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 216  36  48 }
+	color_ui = rgb { 216  36  48 }
 }
 USA = {
 	color = rgb { 20 133 237 }
@@ -386,8 +390,8 @@ PRC = {
 }
 
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 53 120 183 }
+	color_ui = rgb { 53 120 183 }
 }
 
 SHX = {
@@ -495,8 +499,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 65  90  59 }
+	color_ui = rgb { 65  90  59 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
