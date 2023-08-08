@@ -9,7 +9,7 @@ state={
 		victory_points = {
 			3581 3
 		}
-		owner = CZE
+		owner = HUN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
