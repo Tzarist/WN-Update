@@ -2,7 +2,7 @@ state={
 	id=915
 	name="STATE_915"
 	history={
-		owner = GER
+		owner = MEK
 		add_core_of = GER
 		victory_points = {
 			3530 15
