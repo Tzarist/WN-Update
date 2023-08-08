@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = COL
 		buildings = {
 			infrastructure = 2
 		}
