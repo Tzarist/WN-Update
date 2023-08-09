@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = HUN
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}

@@ -1,0 +1,21 @@
+state={
+	id=925
+	name="STATE_925"
+	impassable = yes
+	provinces={
+		13257 
+	}
+	history={
+		owner = FRA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	manpower=2139
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

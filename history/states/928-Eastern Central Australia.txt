@@ -1,0 +1,24 @@
+
+state={
+	id=928
+	name="STATE_928"
+
+	history={
+		owner = ENG
+		impassable = yes
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		2205 5206 8206 10336 10936 10955 13171 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

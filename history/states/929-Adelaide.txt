@@ -1,0 +1,27 @@
+state={
+	id=929
+	name="STATE_929"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			12910 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			12910 15 
+		}
+		add_core_of = ENG
+
+	}
+	provinces={
+		1773 5211 5225 7567 10925 12910 12918 12924 
+	}
+	manpower=254300
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

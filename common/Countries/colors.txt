@@ -153,8 +153,8 @@ SWI = {
 	color_ui = rgb { 193  81  81 }
 }
 TUR = {
-	color = rgb { 171  190  152 }
-	color_ui = rgb { 222  247  198 }
+	color = rgb { 160 36 40  }
+	color_ui = rgb { 222 247 198 }
 }
 GRE = {
 	color = rgb { 93  181  227 }
@@ -413,8 +413,8 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 38 31 135 }
+	color_ui = rgb { 38 31 135 }
 }
 
 PAL = {
@@ -781,4 +781,8 @@ WUR = {
 SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
+}
+NKR = {
+	color = rgb { 68 96 62 }
+	color_ui = rgb { 68 96 62 }
 }
