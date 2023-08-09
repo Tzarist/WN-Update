@@ -1,8 +1,8 @@
 #reload countrycolors
 
 COL = {
-	color = rgb { 225  127  89 }
-	color_ui = rgb { 225  127  89 }
+	color = rgb { 155 62 51 }
+	color_ui = rgb { 155 62 51 }
 }
 SOV = {
 	color = rgb { 65  90  59 }
