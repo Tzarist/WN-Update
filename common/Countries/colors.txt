@@ -786,3 +786,7 @@ NKR = {
 	color = rgb { 68 96 62 }
 	color_ui = rgb { 68 96 62 }
 }
+HEJ = {
+	color = rgb { 216 108 75 }
+	color_ui = rgb { 216 108 75 }
+}

@@ -1,11 +1,15 @@
+
 state={
 	id=921
 	name="STATE_921"
+
 	history={
 		owner = SIA
 		add_core_of = MAL
 		add_core_of = SIA
+
 	}
+
 	provinces={
 		1291 7342 12144 
 	}

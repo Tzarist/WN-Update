@@ -1,0 +1,19 @@
+state={
+	id=936
+	name="STATE_936"
+	
+	history={
+		owner = SOV
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1104 1154 1184 1200 4071 4157 4186 4205 7089 7105 9971 10018 12074 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = city
+	local_supplies=0.000
+}

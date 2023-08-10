@@ -1,0 +1,19 @@
+
+state={
+	id=934
+	name="STATE_934"
+	history={
+		owner = ICM
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		4196 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	local_supplies=0.000
+}
