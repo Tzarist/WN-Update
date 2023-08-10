@@ -1,15 +1,19 @@
+
 state={
 	id=865
 	name="STATE_865"
-	provinces={
-		1671 3800 4695 6779 12682 13168 13183 13185 13187
-	}
-	history = {
+
+	history={
 		owner = CAN
 		add_core_of = CAN
+
+	}
+
+	provinces={
+		3800 4695 6779 7348 13168 13183 13185 13187 
 	}
 	manpower=65605
-	state_category = pastoral
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }
