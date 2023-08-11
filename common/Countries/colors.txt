@@ -1,8 +1,8 @@
 #reload countrycolors
 
 COL = {
-	color = rgb { 155 62 51 }
-	color_ui = rgb { 155 62 51 }
+	color = rgb { 155 43 39 }
+	color_ui = rgb { 155 43 39 }
 }
 SOV = {
 	color = rgb { 65  90  59 }
@@ -755,8 +755,8 @@ D50 = {
 	color_ui = rgb { 255 138 61 }
 }
 BAY = {
-	color = rgb { 233  231  246 }
-	color_ui = rgb { 233  231  246 }
+	color = rgb { 45 129 225 }
+	color_ui = rgb { 45 129 225 }
 }
 MEK = {
 	color = rgb { 186 245 86 }
@@ -789,4 +789,24 @@ NKR = {
 HEJ = {
 	color = rgb { 216 108 75 }
 	color_ui = rgb { 216 108 75 }
+}
+BAD = {
+	color = rgb { 150 36 45 }
+	color_ui = rgb { 150 36 45 }
+}
+TRC = {
+	color = rgb { 74 99 69 }
+	color_ui = rgb { 74 99 69 }
+}
+RDR = {
+	color = rgb { 181 43 54 }
+	color_ui = rgb { 181 43 54 }
+}
+QUE = {
+	color = rgb { 132 64 69 }
+	color_ui = rgb { 132 64 69 }
+}
+DAT = {
+	color = rgb { 255  170  53 }
+	color_ui = rgb { 255  170  53 }
 }

@@ -4,13 +4,13 @@ state={
 	name="STATE_928"
 
 	history={
-		owner = ENG
+		owner = AST
 		impassable = yes
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = ENG
+		add_core_of = AST
 
 	}
 
