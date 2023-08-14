@@ -1,0 +1,2782 @@
+﻿focus_tree = { 
+	id = SPR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+
+	focus = {
+		id = SPR_royal_promotion
+		icon = GFX_SPR_royal_promotion
+		cost = 5
+		
+		x = 20
+		y = 0
+		#relative_position_id = SPR_
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_alfanso_the_great
+		icon = GFX_SPR_alfanso_the_great
+		cost = 5
+		
+		x = -3
+		y = 1
+		relative_position_id = SPR_royal_promotion
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_royal_promotion
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_a_guerrist_puppet
+		icon = GFX_SPR_a_guerrist_puppet
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_alfanso_the_great
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_alfanso_the_great
+		}
+	
+		mutually_exclusive = {
+			focus = SPR_a_guerrist_emperor
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_convence_the_grand_council
+		icon = GFX_SPR_a_guerrist_puppet
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_a_guerrist_puppet
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_a_guerrist_puppet
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_rally_the_conquistadors
+		icon = GFX_SPR_rally_the_conquistadors
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_convence_the_grand_council
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_convence_the_grand_council
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_a_guerrist_emperor
+		icon = GFX_SPR_a_guerrist_emperor
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_alfanso_the_great
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_alfanso_the_great
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_a_guerrist_puppet
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_investigate_the_zaratutz_villa
+		icon = GFX_SPR_investigate_the_zaratutz_villa
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_a_guerrist_emperor
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_a_guerrist_emperor
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_arrest_the_grand_council
+		icon = GFX_SPR_arrest_the_grand_council
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_investigate_the_zaratutz_villa
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_investigate_the_zaratutz_villa
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_unrest_begins
+		icon = GFX_SPR_the_unrest_begins
+		cost = 5
+		
+		x = 0
+		y = 4
+		relative_position_id = SPR_alfanso_the_great
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_rally_the_conquistadors focus = SPR_arrest_the_grand_council
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_emergency_powers_act
+		icon = GFX_SPR_emergency_powers_act
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_the_unrest_begins
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_unrest_begins
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_absolute_prime_minister
+		icon = GFX_SPR_the_absolute_prime_minister
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_emergency_powers_act
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_emergency_powers_act
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_ban_opposing_parties
+		icon = GFX_SPR_ban_opposing_parties
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_the_absolute_prime_minister
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_absolute_prime_minister
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_empower_the_guardia_civil
+		icon = GFX_SPR_empower_the_guardia_civil
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_the_absolute_prime_minister
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_absolute_prime_minister
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_new_order
+		icon = GFX_SPR_the_new_order
+		cost = 5
+		
+		x = 0
+		y = 3
+		relative_position_id = SPR_the_absolute_prime_minister
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_ban_opposing_parties
+		}
+		
+		prerequisite = {
+			focus = SPR_empower_the_guardia_civil
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_absolute_emperor
+		icon = GFX_SPR_the_absolute_emperor
+		cost = 5
+		
+		x = 3
+		y = 1
+		relative_position_id = SPR_emergency_powers_act
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_emergency_powers_act
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_control_the_cortes
+		icon = GFX_SPR_control_the_cortes
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_the_absolute_emperor
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_absolute_emperor
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_reform_the_guerrista_party
+		icon = GFX_SPR_reform_the_guerrista_party
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_the_absolute_emperor
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_absolute_emperor
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_praetorian_guard
+		icon = GFX_SPR_the_praetorian_guard
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = SPR_the_absolute_emperor
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_absolute_emperor
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_new_spain
+		icon = GFX_SPR_the_new_spain
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = SPR_the_absolute_emperor
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_control_the_cortes
+		}
+		
+		prerequisite = {
+			focus = SPR_reform_the_guerrista_party
+		}
+		
+		prerequisite = {
+			focus = SPR_the_praetorian_guard
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_alfansos_factories
+		icon = GFX_SPR_alfansos_factories
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_the_new_spain
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_new_spain
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_carreteralfonso
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_carreteralfonso
+		icon = GFX_SPR_carreteralfonso
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_the_new_spain
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_new_spain
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_alfansos_factories
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_guerrist_philosophy
+		icon = GFX_SPR_the_guerrist_philosophy
+		cost = 5
+		
+		x = 0
+		y = 5
+		relative_position_id = SPR_emergency_powers_act
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_new_order
+		}
+	
+		prerequisite = {
+			focus = SPR_alfansos_factories focus = SPR_carreteralfonso
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_to_die_for_an_idea
+		icon = GFX_SPR_to_die_for_an_idea
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_the_guerrist_philosophy
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_guerrist_philosophy
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_might_makes_rights
+		icon = GFX_SPR_might_makes_rights
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_to_die_for_an_idea
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_to_die_for_an_idea
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_labor_cult
+		icon = GFX_SPR_labor_cult
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_might_makes_rights
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_might_makes_rights
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_imperialist_realisim
+		icon = GFX_SPR_imperialist_realisim
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_might_makes_rights
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_might_makes_rights
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_unity_through_force
+		icon = GFX_SPR_unity_through_force
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = SPR_might_makes_rights
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_might_makes_rights
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_looking_outwards
+		icon = GFX_SPR_unity_through_force
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_imperialist_realisim
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_unity_through_force
+		}
+		
+		prerequisite = {
+			focus = SPR_imperialist_realisim
+		}
+
+		prerequisite = {
+			focus = SPR_labor_cult
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_army_blessed_by_god
+		icon = GFX_SPR_army_blessed_by_god
+		cost = 5
+		
+		x = 0
+		y = 3
+		relative_position_id = SPR_the_new_spain
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_new_spain
+		}
+		
+		prerequisite = {
+			focus = SPR_the_guerrist_philosophy
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_righteous_guarantees_for_soldiers
+		icon = GFX_SPR_righteous_guarantees_for_soldiers
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_army_blessed_by_god
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_army_blessed_by_god
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_die_for_an_emperor
+		icon = GFX_SPR_die_for_an_emperor
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = SPR_righteous_guarantees_for_soldiers
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_righteous_guarantees_for_soldiers
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_formalize_the_conquistadors
+		icon = GFX_SPR_formalize_the_conquistadors
+		cost = 5
+		
+		x = -2
+		y = 2
+		relative_position_id = SPR_the_new_order
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_new_order
+		}
+
+		prerequisite = {
+			focus = SPR_the_guerrist_philosophy
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_hidden_armaments
+		icon = GFX_SPR_the_hidden_armaments
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_formalize_the_conquistadors
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_formalize_the_conquistadors
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_war_railroads
+		icon = GFX_SPR_war_railroads
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_formalize_the_conquistadors
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_formalize_the_conquistadors
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_caudillo
+		icon = GFX_SPR_the_caudillo
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = SPR_formalize_the_conquistadors
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_war_railroads
+		}
+		
+		prerequisite = {
+			focus = SPR_the_hidden_armaments
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_moral_diplomacy
+		icon = GFX_SPR_moral_diplomacy
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_die_for_an_emperor
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_die_for_an_emperor
+		}
+		
+		prerequisite = {
+			focus = SPR_looking_outwards
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_oppose_guerrisim
+		icon = GFX_SPR_oppose_guerrisim
+		cost = 5
+		
+		x = 3
+		y = 1
+		relative_position_id = SPR_royal_promotion
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_royal_promotion
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_coalicon_moderada
+		icon = GFX_SPR_coalicon_moderada
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_oppose_guerrisim
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_oppose_guerrisim
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_against_monarchisim
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_stand_with_senor_azana
+		icon = GFX_SPR_stand_with_senor_azana
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_coalicon_moderada
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_coalicon_moderada
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_stand_with_senor_maura
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_stand_with_senor_maura
+		icon = GFX_SPR_stand_with_senor_maura
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_coalicon_moderada
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_coalicon_moderada
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_stand_with_senor_azana
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_union_of_hispania
+		icon = GFX_SPR_stand_with_senor_azana
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_stand_with_senor_azana
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_stand_with_senor_azana
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_against_monarchisim
+		icon = GFX_SPR_against_monarchisim
+		cost = 5
+		
+		x = 6
+		y = 1
+		relative_position_id = SPR_oppose_guerrisim
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_oppose_guerrisim
+		}
+		
+		mutually_exclusive = {
+			focus = SPR_coalicon_moderada
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_le_roja_espada
+		icon = GFX_SPR_le_roja_espada
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_against_monarchisim
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_against_monarchisim
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_disband_the_army
+		icon = GFX_SPR_disband_the_army
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_le_roja_espada
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_le_roja_espada
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_castilian_liberation_militias
+		icon = GFX_SPR_castilian_liberation_militias
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_le_roja_espada
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_le_roja_espada
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_disband_the_guardia_civil
+		icon = GFX_SPR_disband_the_guardia_civil
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = SPR_le_roja_espada
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_le_roja_espada
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_suspend_elections_indefinitely
+		icon = GFX_SPR_suspend_elections_indefinitely
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = SPR_le_roja_espada
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_disband_the_army
+		}
+		
+		prerequisite = {
+			focus = SPR_castilian_liberation_militias
+		}
+		
+		prerequisite = {
+			focus = SPR_disband_the_guardia_civil
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_the_red_army
+		icon = GFX_SPR_the_red_army
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_suspend_elections_indefinitely
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_suspend_elections_indefinitely
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_defend_the_revelotion
+		icon = GFX_SPR_defend_the_revelotion
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_the_red_army
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_the_red_army
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_guns_of_the_proletariat
+		icon = GFX_SPR_guns_of_the_proletariat
+		cost = 5
+		
+		x = -1
+		y = 2
+		relative_position_id = SPR_defend_the_revelotion
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_defend_the_revelotion
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_fields_to_the_frontlines
+		icon = GFX_SPR_fields_to_the_frontlines
+		cost = 5
+		
+		x = 1
+		y = 2
+		relative_position_id = SPR_defend_the_revelotion
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_defend_the_revelotion
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_red_interbentionalisim
+		icon = GFX_SPR_red_interbentionalisim
+		cost = 5
+		
+		x = 0
+		y = 3
+		relative_position_id = SPR_defend_the_revelotion
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_guns_of_the_proletariat
+		}
+		
+		prerequisite = {
+			focus = SPR_fields_to_the_frontlines
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_abolish_the_aristocracy
+		icon = GFX_SPR_abolish_the_aristocracy
+		cost = 5
+		
+		x = -3
+		y = 1
+		relative_position_id = SPR_suspend_elections_indefinitely
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_suspend_elections_indefinitely
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_seizure_of_farmlands
+		icon = GFX_SPR_seizure_of_farmlands
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_abolish_the_aristocracy
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_abolish_the_aristocracy
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_set_up_communes
+		icon = GFX_SPR_set_up_communes
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_seizure_of_farmlands
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_seizure_of_farmlands
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_modernize_farming_methods
+		icon = GFX_SPR_modernize_farming_methods
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_seizure_of_farmlands
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_seizure_of_farmlands
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_finalize_land_reform
+		icon = GFX_SPR_finalize_land_reform
+		cost = 5
+		
+		x = 0
+		y = 3
+		relative_position_id = SPR_seizure_of_farmlands
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_set_up_communes
+		}
+		
+		prerequisite = {
+			focus = SPR_modernize_farming_methods
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_destroy_the_bourgeoisie
+		icon = GFX_SPR_destroy_the_bourgeoisie
+		cost = 5
+		
+		x = 3
+		y = 1
+		relative_position_id = SPR_suspend_elections_indefinitely
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_suspend_elections_indefinitely
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_state_mandated_unions
+		icon = GFX_SPR_state_mandated_unions
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = SPR_destroy_the_bourgeoisie
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_destroy_the_bourgeoisie
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_standardize_production
+		icon = GFX_SPR_standardize_production
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_state_mandated_unions
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_state_mandated_unions
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_nationalize_the_industry
+		icon = GFX_SPR_nationalize_the_industry
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = SPR_destroy_the_bourgeoisie
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_destroy_the_bourgeoisie
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_state_economic_planning
+		icon = GFX_SPR_state_economic_planning
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_nationalize_the_industry
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_nationalize_the_industry
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_three_year_plan
+		icon = GFX_SPR_three_year_plan
+		cost = 5
+		
+		x = 0
+		y = 4
+		relative_position_id = SPR_destroy_the_bourgeoisie
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = {
+			focus = SPR_state_economic_planning
+		}
+		
+		prerequisite = {
+			focus = SPR_standardize_production
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}focus = {
+		id = SPR_proclaim_the_workers_republic
+		icon = GFX_SPR_proclaim_the_workers_republic
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_red_interbentionalisim
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = {
+			focus = SPR_three_year_plan
+		}
+		
+		prerequisite = {
+			focus = SPR_finalize_land_reform
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	
+	# ECO
+	
+
+	focus = {
+		id = SPR_economic_restructuring
+		icon = GFX_SPR_economic_restructuring
+		cost = 5
+		
+		x = 45
+		y = 0
+		#relative_position_id = SPR_
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_imperial_development
+		icon = GFX_SPR_imperial_development
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_economic_restructuring
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		mutually_exclusive = {
+			focus = SPR_made_in_spain_project
+		}
+	
+		prerequisite = {
+			focus = SPR_economic_restructuring
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_tejas
+		icon = GFX_SPR_tejas
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_imperial_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_imperial_development
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_new_toledo
+		icon = GFX_SPR_new_toledo
+		cost = 5
+		
+		x = -1
+		y = 2
+		relative_position_id = SPR_imperial_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_imperial_development
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_new_spain
+		icon = GFX_SPR_new_spain
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_imperial_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_imperial_development
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_new_granada
+		icon = GFX_SPR_new_granada
+		cost = 5
+		
+		x = 1
+		y = 2
+		relative_position_id = SPR_imperial_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_imperial_development
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_sonora
+		icon = GFX_SPR_sonora
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = SPR_imperial_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_imperial_development
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_imperial_research_board
+		icon = GFX_SPR_imperial_research_board
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = SPR_new_spain
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_tejas
+		}
+		
+		prerequisite = {
+			focus = SPR_new_toledo
+		}
+		
+		prerequisite = {
+			focus = SPR_new_spain
+		}
+		
+		prerequisite = {
+			focus = SPR_new_granada
+		}
+		
+		prerequisite = {
+			focus = SPR_sonora
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_made_in_spain_project
+		icon = GFX_SPR_made_in_spain_project
+		cost = 5
+		
+		x = -3
+		y = 1
+		relative_position_id = SPR_economic_restructuring
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_imperial_development
+		}
+	
+		mutually_exclusive = {
+			focus = SPR_imperial_development
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_develop_our_realm
+		icon = GFX_SPR_develop_our_realm
+		cost = 5
+		
+		x = 6
+		y = 1
+		relative_position_id = SPR_economic_restructuring
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_economic_restructuring
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_catalon_investments
+		icon = GFX_SPR_develop_our_realm
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_develop_our_realm
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_develop_our_realm
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_cuban_resources
+		icon = GFX_SPR_cuban_resources
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_develop_our_realm
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_develop_our_realm
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_metropolian_infrastructure
+		icon = GFX_SPR_metropolian_infrastructure
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = SPR_develop_our_realm
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_develop_our_realm
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_royal_factories
+		icon = GFX_SPR_royal_factories
+		cost = 5
+		
+		x = 3
+		y = 2
+		relative_position_id = SPR_develop_our_realm
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_develop_our_realm
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_army_of_toteldo
+		icon = GFX_SPR_army_of_toteldo
+		cost = 5
+		
+		x = -3
+		y = 2
+		relative_position_id = SPR_develop_our_realm
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_develop_our_realm
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_urbanization
+		icon = GFX_SPR_urbanization
+		cost = 5
+		
+		x = 0
+		y = 3
+		relative_position_id = SPR_develop_our_realm
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = {
+			focus = SPR_army_of_toteldo
+		}
+	
+		prerequisite = {
+			focus = SPR_catalon_investments
+		}
+		
+		prerequisite = {
+			focus = SPR_cuban_resources
+		}
+		
+		prerequisite = {
+			focus = SPR_metropolian_infrastructure
+		}
+		
+		prerequisite = {
+			focus = SPR_royal_factories
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_africa_development
+		icon = GFX_SPR_africa_development
+		cost = 5
+		
+		x = -6
+		y = 2
+		relative_position_id = SPR_economic_restructuring
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_economic_restructuring
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_aluminium_of_cameroon
+		icon = GFX_SPR_aluminium_of_cameroon
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = SPR_africa_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_africa_development
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_ferrocarril_de_africa_occidental
+		icon = GFX_SPR_ferrocarril_de_africa_occidental
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = SPR_africa_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_africa_development
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_rubber_plantations
+		icon = GFX_SPR_rubber_plantations
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = SPR_africa_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_africa_development
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_toulon_de_africa
+		icon = GFX_SPR_toulon_de_africa
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = SPR_africa_development
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_aluminium_of_cameroon
+		}
+		
+		prerequisite = {
+			focus = SPR_ferrocarril_de_africa_occidental
+		}
+		
+		prerequisite = {
+			focus = SPR_rubber_plantations
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SPR_workshop_of_the_empire
+		icon = GFX_SPR_workshop_of_the_empire
+		cost = 5
+		
+		x = -3
+		y = 5
+		relative_position_id = SPR_economic_restructuring
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = {
+			focus = SPR_toulon_de_africa
+		}
+		
+		prerequisite = {
+			focus = SPR_imperial_research_board
+		}
+		
+		prerequisite = {
+			focus = SPR_made_in_spain_project
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = SPR_industrial_empire
+		icon = GFX_SPR_industrial_empire
+		cost = 5
+		
+		x = 3
+		y = 5
+		relative_position_id = SPR_economic_restructuring
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SPR_urbanization
+		}
+		
+		prerequisite = {
+			focus = SPR_imperial_research_board
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+}
+
+

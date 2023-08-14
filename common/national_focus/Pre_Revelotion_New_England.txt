@@ -1,0 +1,519 @@
+﻿focus_tree = { 
+	id = NEN
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NEN
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = NEN_a_distant_memory
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 15
+		y = 0
+		#relative_position_id = NEN_
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_petition_for_a_new_king
+		icon = GFX_NEN_petition_for_a_new_king
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_a_distant_memory
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_a_distant_memory
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_elections_restored
+		icon = GFX_NEN_elections_restored
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_petition_for_a_new_king
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_petition_for_a_new_king
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_side_with_liberty
+		icon = GFX_NEN_side_with_liberty
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = NEN_elections_restored
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_elections_restored
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_side_with_the_king
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_thoughts_of_freedom
+		icon = GFX_NEN_thoughts_of_freedom
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_side_with_liberty
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_side_with_liberty
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_unite_the_coalition
+		icon = GFX_NEN_unite_the_coalition
+		cost = 5
+		
+		x = -3
+		y = 1
+		relative_position_id = NEN_thoughts_of_freedom
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_thoughts_of_freedom
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_state_of_rights
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_america_for_breckinridge
+		icon = GFX_NEN_america_for_breckinridge
+		cost = 5.8
+		
+		x = 2
+		y = 1
+		relative_position_id = NEN_unite_the_coalition
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_unite_the_coalition
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_america_for_dewey
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_america_for_thomas
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_america_for_thomas
+		icon = GFX_NEN_america_for_thomas
+		cost = 5.8
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_unite_the_coalition
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_unite_the_coalition
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_america_for_breckinridge
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_america_for_dewey
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_america_for_dewey
+		icon = GFX_NEN_america_for_dewey
+		cost = 5.8
+		
+		x = -2
+		y = 1
+		relative_position_id = NEN_unite_the_coalition
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_unite_the_coalition
+		}
+	
+		mutually_exclusive = {
+			focus = NEN_america_for_breckinridge
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_america_for_thomas
+		}
+		
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_state_of_rights
+		icon = GFX_NEN_state_of_rights
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = NEN_thoughts_of_freedom
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_thoughts_of_freedom
+		}
+		
+		mutually_exclusive = {
+			focus = NEN_unite_the_coalition
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_vermont_for_harkins
+		icon = GFX_NEN_vermont_for_harkins
+		cost = 5.8
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_state_of_rights
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_state_of_rights
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_side_with_the_king
+		icon = GFX_NEN_side_with_the_king
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = NEN_elections_restored
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_elections_restored
+		}
+	
+		mutually_exclusive = {
+			focus = NEN_side_with_liberty
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_prepare_for_unrest
+		icon = GFX_NEN_prepare_for_unrest
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_side_with_the_king
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_side_with_the_king
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_his_majestys_coalition
+		icon = GFX_NEN_his_majestys_coalition
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_prepare_for_unrest
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_prepare_for_unrest
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = NEN_new_england_for_churchil
+		icon = GFX_NEN_new_england_for_churchil
+		cost = 5.8
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_his_majestys_coalition
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = NEN_his_majestys_coalition
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+}
+
+

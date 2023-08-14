@@ -1,0 +1,437 @@
+﻿focus_tree = { 
+	id = GER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = GER_constitutional_convention
+		icon = GFX_GER_constitutional_convention
+		cost = 10
+		
+		x = 7
+		y = 0
+		#relative_position_id = GER_
+		
+		mutually_exclusive = {
+			focus = GER_the_king_and_his_men
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_freie_republik
+		icon = GFX_GER_freie_republik
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_constitutional_convention
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_constitutional_convention
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_prussian_repatration
+		icon = GFX_GER_prussian_repatration
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_freie_republik
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_freie_republik
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_emergency_elections
+		icon = GFX_GER_emergency_elections
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_prussian_repatration
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_prussian_repatration
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = GER_die_linke
+		icon = GFX_GER_die_linke
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_emergency_elections
+		
+		mutually_exclusive = {
+			focus = GER_das_rechts
+		}
+		
+		mutually_exclusive = {
+			focus =GER_die_zentrum
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_emergency_elections
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_die_zentrum
+		icon = GFX_GER_die_zentrum
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_emergency_elections
+		
+		mutually_exclusive = {
+			focus = GER_das_rechts
+		}
+		
+		mutually_exclusive = {
+			focus =GER_die_linke
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_emergency_elections
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_das_rechts
+		icon = GFX_GER_das_rechts
+		cost = 10
+		
+		x = 2
+		y = 1
+		relative_position_id = GER_emergency_elections
+		
+		mutually_exclusive = {
+			focus = GER_die_zentrum
+		}
+		
+		mutually_exclusive = {
+			focus =GER_die_linke
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_emergency_elections
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_the_king_and_his_men
+		icon = GFX_GER_the_king_and_his_men
+		cost = 10
+		
+		x = 12
+		y = 0
+		#relative_position_id = GER_
+		
+		mutually_exclusive = {
+			focus = GER_constitutional_convention
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_prepare_for_the_crisis
+		icon = GFX_GER_prepare_for_the_crisis
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_the_king_and_his_men
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_the_king_and_his_men
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_big_promises
+		icon = GFX_GER_big_promises
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_prepare_for_the_crisis
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_prepare_for_the_crisis
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_big_guns
+		icon = GFX_GER_big_guns
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_prepare_for_the_crisis
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_prepare_for_the_crisis
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_big_planes
+		icon = GFX_GER_big_planes
+		cost = 10
+		
+		x = 2
+		y = 1
+		relative_position_id = GER_prepare_for_the_crisis
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_prepare_for_the_crisis
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = GER_der_bruderkrieg
+		icon = GFX_GER_der_bruderkrieg
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_big_promises
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = GER_big_promises focus = GER_big_guns focus = GER_big_planes
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+}
+
+

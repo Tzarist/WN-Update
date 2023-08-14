@@ -1,0 +1,95 @@
+ideas = {
+
+	country = {
+		spirit_of_mcarthur = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				recruitable_population_factor = -0.075
+			}
+		}
+		
+		british_mercantilisim = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.02
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		
+		british_financial_panic = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				recruitable_population_factor = -0.20
+			}
+		}
+		
+		which_side_you_on = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.075
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.07
+			}
+		}
+		
+		let_freedom_ring_again = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.052
+				political_power_cost = 1
+			}
+		}
+	}
+}

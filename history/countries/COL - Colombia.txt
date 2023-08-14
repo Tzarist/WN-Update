@@ -1,6 +1,11 @@
 ﻿capital = 473 #vancoover
 recruit_character = COL_J._Hamilton_Lewis
 
+
+add_ideas = {
+	british_financial_panic
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

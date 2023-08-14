@@ -1,5 +1,10 @@
 capital = 613
 
+
+add_ideas = {
+	british_financial_panic
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

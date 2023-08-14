@@ -1,5 +1,12 @@
 ﻿capital = 112
 
+add_ideas = {
+	inefficient_agriculture
+	metropolian_confusion
+	unequal_democracy
+	efige_da_republica
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
