@@ -1,0 +1,13 @@
+bitmapfonts = {
+
+ 	bitmapfont = {
+		name = "blackcite"   
+		fontfiles = { 
+			"gfx/fonts/CJKblackcite"
+			"gfx/fonts/blackcite"		
+		}
+		color = 0xffffffff
+	}
+
+
+}
