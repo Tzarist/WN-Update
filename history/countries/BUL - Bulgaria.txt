@@ -12,16 +12,16 @@ if = {
 set_convoys = 26
 
 #You don't want Bulgarian party names? Just remove these lines
-set_party_name = { # DLC
-	ideology = guerrism
-	name = BUL_guerrist_party
-	long_name = BUL_guerrist_party_long
-}
-set_party_name = { # DLC
-	ideology = toryism
-	name = BUL_toryist_party
-	long_name = BUL_toryist_party_long
-}
+#set_party_name = { # DLC
+#	ideology = guerrism
+#	name = BUL_guerrist_party
+#	long_name = BUL_guerrist_party_long
+#}
+#set_party_name = { # DLC
+#	ideology = toryism
+#	name = BUL_toryist_party
+#	long_name = BUL_toryist_party_long
+#}
 set_party_name = {
 	ideology = cantonalism
 	name = BUL_cantonalist_party
@@ -32,50 +32,51 @@ set_party_name = {
 	name = BUL_liberalist_party
 	long_name = BUL_liberalist_party_long
 }
-set_party_name = {
-	ideology = labourism
-	name = BUL_labourist_party
-	long_name = BUL_labourist_party_long
-}
+#set_party_name = {
+#	ideology = labourism
+#	name = BUL_labourist_party
+#	long_name = BUL_labourist_party_long
+#}
 set_party_name = { # DLC
 	ideology = marxism
 	name = BUL_marxist_party
 	long_name = BUL_marxist_party_long
 }
-set_party_name = { # DLC
-	ideology = maximalism
-	name = BUL_maximalist_party
-	long_name = BUL_maximalist_party_long
-}
+#set_party_name = { # DLC
+#	ideology = maximalism
+#	name = BUL_maximalist_party
+#	long_name = BUL_maximalist_party_long
+#}
 set_party_name = {
 	ideology = revivalism
 	name = BUL_revivalist_party
 	long_name = BUL_revivalist_party_long
 }
-set_party_name = {
-	ideology = socialism
-	name = BUL_socialist_party
-	long_name = BUL_socialist_party_long
-}
+#set_party_name = {
+#	ideology = socialism
+#	name = BUL_socialist_party
+#	long_name = BUL_socialist_party_long
+#}
 set_party_name = {
 	ideology = raronism
 	name = BUL_raronist_party
 	long_name = BUL_raronist_party_long
-}set_party_name = {
-	ideology = wilsonian
-	name = BUL_wilsonianist_party
-	long_name = BUL_wilsonianist_party_long
 }
+#set_party_name = {
+#	ideology = wilsonian
+#	name = BUL_wilsonianist_party
+#	long_name = BUL_wilsonianist_party_long
+#}
 set_party_name = { # DLC
 	ideology = libertarian
 	name = BUL_libertarianist_party
 	long_name = BUL_libertarianist_party_long
 }
-set_party_name = { # DLC
-	ideology = despotism
-	name = BUL_despotist_party
-	long_name = BUL_despotist_party_long
-}
+#set_party_name = { # DLC
+#	ideology = despotism
+#	name = BUL_despotist_party
+#	long_name = BUL_despotist_party_long
+#}
 set_party_name = {
 	ideology = theologicalism
 	name = BUL_theologicalist_party
@@ -86,11 +87,11 @@ set_party_name = {
 	name = BUL_reactionist_party
 	long_name = BUL_reactionist_party_long
 }
-set_party_name = {
-	ideology = klanism
-	name = BUL_klanist_party
-	long_name = BUL_klanist_party_long
-}	
+#set_party_name = {
+#	ideology = klanism
+#	name = BUL_klanist_party
+#	long_name = BUL_klanist_party_long
+#}	
 set_popularities = {
     liberalism = 7.5 #done
     raronism = 13.75 #done
@@ -100,6 +101,17 @@ set_popularities = {
     libertarian = 4.25 #done
     reactionism = 34 #done
     theologicalism = 11 #done
+}
+
+create_country_leader = {
+	name = "Boris III"
+	#desc =
+	picture = Portrait_Bulgaria_Boris_III.dds
+	expires = 1967.3.7
+	ideology = royalism
+	traits = {
+		great_leader
+	}
 }
 ###################
 #### 3D MODELS ####
@@ -300,7 +312,7 @@ recruit_character = BUL_stefan_nedev
 set_research_slots = 3 #DLC
 #RULING PARTY
 set_politics = { #DLC
-	ruling_party = neutrality
+	ruling_party = reactionism
 	last_election = "1935.1.22"
 	election_frequency = 48
 	elections_allowed = no
@@ -340,7 +352,7 @@ if = {
 		neutrality = 60
 	}
 	set_politics = { #VANILLA & DLC
-		ruling_party = neutrality
+		ruling_party = reactionism
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no
