@@ -23,4 +23,66 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1500 }
+
+	focus = {
+		id = BUL_the_bulgarian_nation
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 15
+		y = 0
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = BUL_enforce_the_monarchy
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		relative_position_id = BUL_the_bulgarian_nation
+		x = -3
+		y = 1
+		prerequisite = { focus = BUL_the_bulgarian_nation }
+		mutually_exclusive = { focus = BUL_question_the_tsar }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = BUL_question_the_tsar
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 3
+		y = 1
+		relative_position_id = BUL_the_bulgarian_nation
+		prerequisite = { focus = BUL_the_bulgarian_nation }
+		mutually_exclusive = { focus = BUL_enforce_the_monarchy } 
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_popularity = { ideology = neutrality popularity = -0.25 } 
+		}
+	}
+	focus = {
+		id = BUL_approach_poland
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 1
+		y = 1
+		relative_position_id = BUL_question_the_tsar
+		prerequisite = { focus = BUL_question_the_tsar }
+		#mutually_exclusive = { focus = BUL_enforce_the_monarchy } 
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.12 } 
+		}
+	}
 }

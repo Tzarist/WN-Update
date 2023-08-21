@@ -16,11 +16,11 @@ bookmarks = {
 			
 			}
 		}
-		USA = {
-			history = USA_BLITZKRIEG_DESC
-			ideology = democratic
+		BUL = {
+			history = BUL_BLITZKRIEG_DESC
+			ideology = neutrality
 			ideas = {
-			
+				victorious_balkaner
 			}
 			focuses = {
 			

@@ -29,14 +29,14 @@ bookmarks = {
 				
 			}
 		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+		BUL = {
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				
+				victorious_balkaner
 			}
 			focuses = {
-				
+			
 			}
 		}
 		"ENG"={
