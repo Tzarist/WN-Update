@@ -1,0 +1,92 @@
+ideas = {
+
+	country = {
+		protector_of_asia = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_against_major_factor = 0.10
+				army_core_defence_factor = 0.10
+			}
+		}
+		
+		recent_modernization = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		threat_of_the_russian_bear = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.10
+				war_support_factor = 0.10
+			}
+		}
+		
+		political_factionalisim = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.05
+				surrender_limit = -0.10
+			}
+		}
+		
+		anglo_japanees_friendship = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.025
+			}
+		}
+	}
+}
