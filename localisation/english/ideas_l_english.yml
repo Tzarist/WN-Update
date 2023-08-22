@@ -893,8 +893,11 @@
  BUL_kiril_dimitrov_yanchule:0 "Kiril Dimitrov Yanchule"
  BUL_atanas_pavlov_zhilkov:0 "Atanas Pavlov Zhilkov"
 
- #Bulgaria ideas
+ #Bulgaria Ideas
  victorious_balkaner:0 "Victory In The Balkan Wars"
+
+ #Bulgaria Traits
+ great_leader:0 "Great Leader"
 
  #Romania
  ROM_revenge_against_soviet:0 "Seeking Revenge Against Soviet"

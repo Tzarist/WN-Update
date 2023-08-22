@@ -1,6 +1,6 @@
 ideologies = {
 
-	cantonalism = {
+	Cantonalism = {
 		
 		types = {
 		
@@ -37,7 +37,7 @@ ideologies = {
 		}
 	}
 
-	maximalism = {
+	Maximalism = {
 		
 		types = {
 		
@@ -75,7 +75,7 @@ ideologies = {
 			can_puppet = yes
 		}
 	}
-	socialism = {
+Socialism = {
 		
 		types = {
 		
@@ -133,7 +133,7 @@ ideologies = {
 
 	}
 
-	reactionism = {
+	Reactionism = {
 	
 		types = {
 		
@@ -180,7 +180,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
-	theologism = {
+	Theologism = {
 	
 		types = {
 		
@@ -227,7 +227,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	raronism = {
+	Raronism = {
 		
 		types = {
 		
@@ -345,7 +345,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	labourism = {
+	Labourism = {
 	
 		types = {
 			
@@ -405,7 +405,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	wilsonian = {
+	Wilsonian = {
 	
 		types = {
 			
@@ -465,7 +465,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	liberalism = {
+	Liberalism = {
 	
 		types = {
 			
@@ -525,7 +525,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	toryism = {
+	Toryism = {
 	
 		types = {
 			
@@ -589,7 +589,7 @@ ideologies = {
 	}
 
 
-	marxism = {
+	Marxism = {
 		
 		types = {
 		
@@ -650,7 +650,7 @@ ideologies = {
 
 	}
 
-	guerrism = {
+	Guerrism = {
 	
 		types = {
 		
@@ -703,7 +703,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	klanism = {
+	Klanism = {
 	
 		types = {
 		
@@ -753,7 +753,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
-	revivalism = {
+	Revivalism = {
 	
 		types = {
 		
@@ -806,7 +806,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
-	despotism = {
+	Despotism = {
 	
 		types = {
 		
