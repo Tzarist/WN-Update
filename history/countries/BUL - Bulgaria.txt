@@ -25,7 +25,7 @@ set_party_name = {
 set_party_name = {
 	ideology = Cantonalism
 	name = BUL_cantonalist_party
-	long_name = BUL_cantonaist_party_long
+	long_name = BUL_cantonalist_party_long
 }
 set_party_name = {
 	ideology = Liberalism
@@ -121,6 +121,16 @@ create_country_leader = {
 		great_leader
 	}
 }
+create_country_leader = {
+	name = "Todor Zhivkov"
+	#desc =
+	picture = Portrait_Bulgaria_Boris_III.dds
+	expires = 1967.3.7
+	ideology = royalism
+	traits = {
+		great_leader
+	}
+}
 ###################
 #### 3D MODELS ####
 ###################
@@ -129,14 +139,13 @@ create_country_leader = {
 #BUL_democratic
 #BUL_fascism
 #BUL_neutrality
-set_cosmetic_tag = BUL_neutrality
 #IDEAS SETUP
 add_ideas = {
 	victorious_balkaner
 }
 #Army limitations due to Treaty of Neuilly sur Seine
-set_rule = { #DLC
-	can_not_declare_war = yes
+set_rule = {
+	can_not_declare_war = no
 }
 country_lock_all_division_template = no
 #SET FLAGS AND VARIABLES
