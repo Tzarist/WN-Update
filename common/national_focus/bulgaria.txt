@@ -66,23 +66,42 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_popularity = { ideology = neutrality popularity = -0.25 } 
+			add_popularity = {
+				ideology = Reactionism
+				popularity = -0.15
+			}
 		}
 	}
 	focus = {
-		id = BUL_approach_poland
+		id = BUL_approach_greece
 		icon = GFX_focus_generic_befriend_bulgaria
 		cost = 10
 		x = 1
 		y = 1
 		relative_position_id = BUL_question_the_tsar
 		prerequisite = { focus = BUL_question_the_tsar }
-		#mutually_exclusive = { focus = BUL_enforce_the_monarchy } 
+		mutually_exclusive = { focus = BUL_approach_poland } 
 		available = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_popularity = { ideology = communism popularity = 0.12 } 
+			add_popularity = { ideology = Marxism popularity = 0.08 } 
+		}
+	}
+	focus = {
+		id = BUL_approach_poland
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = BUL_question_the_tsar
+		prerequisite = { focus = BUL_question_the_tsar }
+		mutually_exclusive = { focus = BUL_approach_greece } 
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_popularity = { ideology = Socialism popularity = 0.08 } 
 		}
 	}
 }

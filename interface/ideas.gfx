@@ -1,16 +1,6 @@
 spriteTypes = {	
-
-
-
-	SpriteType = {
-		name = "GFX_idea_traits_strip"
-		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
-		noOfFrames = 18
-	}
-
-	### new tfv nat spirit icons
 	spriteType = {
-		name = "GFX_idea_victory_in_the_balkans"
-		texturefile = "gfx/interface/ideas/idea_victory_in_the_balkans.dds"
+		name = GFX_idea_victory_in_the_balkans
+		textureFile = "gfx/interface/ideas/idea_victory_in_the_balkans.dds"
 	}				
 }
