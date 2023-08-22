@@ -1,9 +1,5 @@
 ﻿capital = 41
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
 
 set_convoys = 20
 
@@ -53,58 +49,38 @@ set_convoys = 20
 }
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = TEJ
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.3
-	}
-	set_autonomy = {
-		target = NWS
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-}
-	set_autonomy = {
-		target = NWG
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.3
-}
-	set_autonomy = {
-		target = PRU
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-}
-set_autonomy = {
-		target = SON
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-}
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = Guerrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 55
-	fascism = 42
-	communism = 0
-	neutrality = 3
+	Klanism = 0
+	Wilsonian = 0
+	Socialism = 0
+	Maximalism = 0
+	Labourism = 0
+	Toryism = 0
+	Guerrism = 34
+	Despotism = 0
+    Liberalism = 7.5 #done
+    Raronism = 13.75 #done
+    Marxism = 15.5 #done
+    Revivalism = 6 #done
+    Cantonalism = 8 #done
+    Libertarianism = 4.25 #done
+    Reactionism = 0 #done
+    Theologism = 11 #done
 }
 
 create_country_leader = {
 	name = "Alfonso XIII"
 	desc = ""
-	picture = "alfonso.dds"
-	ideology = falangism
+	picture = "Portrait_Spain_Alfonso_XII.dds"
+	ideology = francoist
 	traits = {
 		#
 	}
@@ -124,4 +100,3 @@ create_country_leader = {
 		neutrality = 50
 	}
 }
-

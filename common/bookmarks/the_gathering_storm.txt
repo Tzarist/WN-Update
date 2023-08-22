@@ -27,21 +27,9 @@ bookmarks = {
 			
 			}
 		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
+		"SPR"={
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = Guerrism
 			ideas = {
 				
 			}
@@ -51,8 +39,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
+			ideology = Despotism
 			ideas = {
 				
 			}
@@ -60,32 +47,9 @@ bookmarks = {
 				
 			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "By Blood Alone" }
-			ideas = {
-				
-			}	
-			focuses = {
-				
-			}		
-		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "By Blood Alone" } }
+		"TUR"={
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = Despotism
 			ideas = {
 				
 			}	

@@ -1,0 +1,86 @@
+﻿
+
+####
+#### VANILLA ####
+####
+
+capital = 219
+
+starting_train_buffer = 3.0
+
+	set_oob = "SOV_1936"
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	set_stability = 0.75
+	set_war_support = 0.55 #Needs at least 0.5 to make sense with War Economy Law
+	
+	#DESIGNERS AND LAWS
+	add_ideas = {
+		stalingrad_tractor_factory
+		SOV_tula_arms_plant
+		#laws
+		war_economy
+		extensive_conscription
+	}
+	set_air_oob = "SOV_1939_air_legacy"
+			set_technology = {
+				CAS1 = 1
+				tactical_bomber1 = 1
+			}
+			
+			set_naval_oob = "SOV_1939_naval_legacy"
+
+		set_oob = "SOV_1939"
+}
+
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = Despotism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tzar Nicholas II"
+	#desc =
+	picture = Portrait_Russia_Nicholas_II.dds
+	expire = 1967.3.7
+	ideology = absolutism
+	traits = {
+	}
+}
+
+set_popularities = {
+	Klanism = 0
+	Wilsonian = 0
+	Socialism = 0
+	Maximalism = 0
+	Labourism = 0
+	Toryism = 0
+	Guerrism = 0
+	Despotism = 34
+    Liberalism = 7.5 #done
+    Raronism = 13.75 #done
+    Marxism = 15.5 #done
+    Revivalism = 6 #done
+    Cantonalism = 8 #done
+    Libertarianism = 4.25 #done
+    Reactionism = 0 #done
+    Theologism = 11 #done
+}
+### VARIANTS ###
+# 1936 Start #
+1936.1.1 = {
+
+}
+
+# 1939 Start #
+1939.1.1 = {
+	
+}
