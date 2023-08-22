@@ -12,16 +12,16 @@ if = {
 set_convoys = 26
 
 #You don't want Bulgarian party names? Just remove these lines
-#set_party_name = { # DLC
-#	ideology = guerrism
-#	name = BUL_guerrist_party
-#	long_name = BUL_guerrist_party_long
-#}
-#set_party_name = { # DLC
-#	ideology = toryism
-#	name = BUL_toryist_party
-#	long_name = BUL_toryist_party_long
-#}
+set_party_name = {
+	ideology = guerrism
+	name = BUL_guerrist_party
+	long_name = BUL_guerrist_party_long
+}
+set_party_name = {
+	ideology = toryism
+	name = BUL_toryist_party
+	long_name = BUL_toryist_party_long
+}
 set_party_name = {
 	ideology = cantonalism
 	name = BUL_cantonalist_party
@@ -32,75 +32,83 @@ set_party_name = {
 	name = BUL_liberalist_party
 	long_name = BUL_liberalist_party_long
 }
-#set_party_name = {
-#	ideology = labourism
-#	name = BUL_labourist_party
-#	long_name = BUL_labourist_party_long
-#}
-set_party_name = { # DLC
+set_party_name = {
+	ideology = labourism
+	name = BUL_labourist_party
+	long_name = BUL_labourist_party_long
+}
+set_party_name = {
 	ideology = marxism
 	name = BUL_marxist_party
 	long_name = BUL_marxist_party_long
 }
-#set_party_name = { # DLC
-#	ideology = maximalism
-#	name = BUL_maximalist_party
-#	long_name = BUL_maximalist_party_long
-#}
+set_party_name = {
+	ideology = maximalism
+	name = BUL_maximalist_party
+	long_name = BUL_maximalist_party_long
+}
 set_party_name = {
 	ideology = revivalism
 	name = BUL_revivalist_party
 	long_name = BUL_revivalist_party_long
 }
-#set_party_name = {
-#	ideology = socialism
-#	name = BUL_socialist_party
-#	long_name = BUL_socialist_party_long
-#}
+set_party_name = {
+	ideology = socialism
+	name = BUL_socialist_party
+	long_name = BUL_socialist_party_long
+}
 set_party_name = {
 	ideology = raronism
 	name = BUL_raronist_party
 	long_name = BUL_raronist_party_long
 }
-#set_party_name = {
-#	ideology = wilsonian
-#	name = BUL_wilsonianist_party
-#	long_name = BUL_wilsonianist_party_long
-#}
-set_party_name = { # DLC
-	ideology = libertarian
+set_party_name = {
+	ideology = wilsonian
+	name = BUL_wilsonianist_party
+	long_name = BUL_wilsonianist_party_long
+}
+set_party_name = {
+	ideology = Libertarianism
 	name = BUL_libertarianist_party
 	long_name = BUL_libertarianist_party_long
 }
-#set_party_name = { # DLC
-#	ideology = despotism
-#	name = BUL_despotist_party
-#	long_name = BUL_despotist_party_long
-#}
 set_party_name = {
-	ideology = theologicalism
-	name = BUL_theologicalist_party
-	long_name = BUL_theologicalist_party_long
+	ideology = despotism
+	name = BUL_despotist_party
+	long_name = BUL_despotist_party_long
+}
+set_party_name = {
+	ideology = theologism
+	name = BUL_theologist_party
+	long_name = BUL_theologist_party_long
 }
 set_party_name = {
 	ideology = reactionism
 	name = BUL_reactionist_party
 	long_name = BUL_reactionist_party_long
 }
-#set_party_name = {
-#	ideology = klanism
-#	name = BUL_klanist_party
-#	long_name = BUL_klanist_party_long
-#}	
+set_party_name = {
+	ideology = klanism
+	name = BUL_klanist_party
+	long_name = BUL_klanist_party_long
+}	
 set_popularities = {
+	klanism = 0
+	wilsonian = 0
+	socialism = 0
+	maximalism = 0
+	labourism = 0
+	toryism = 0
+	guerrism = 0
+	despotism = 0
     liberalism = 7.5 #done
     raronism = 13.75 #done
     marxism = 15.5 #done
     revivalism = 6 #done
     cantonalism = 8 #done
-    libertarian = 4.25 #done
+    libertarianism = 4.25 #done
     reactionism = 34 #done
-    theologicalism = 11 #done
+    theologism = 11 #done
 }
 
 create_country_leader = {
