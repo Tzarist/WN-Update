@@ -2,3 +2,7 @@
  #Bulgaria
  BUL_the_bulgarian_nation:0 "The Bulgarian Nation"
  BUL_the_bulgarian_nation_desc:0 "Bulgaria must not rely on it's allies [SOV.GetName] and [FRA.GetName] alone, we must prepare for anything."
+ BUL_enforce_the_monarchy:0 "Enforce The Monarchy"
+ BUL_enforce_the_monarchy_desc:0 "We must ally with our friends to the west, and the first step in that is to enforce the rule of the Tsar."
+ BUL_question_the_tsar:0 "Question The Tsar"
+ BUL_question_the_tsar_desc:0 "Continuing under the rule of Tsar Boris III will not lead to prospect in the Bulgarian nation, we must remove the monarchy from it, or we will crumble."
