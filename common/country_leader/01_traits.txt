@@ -13,5 +13,8 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
-	
+	great_leader = {
+		stability_factor = 0.15
+		political_power_gain = 0.03
+	}
 }
