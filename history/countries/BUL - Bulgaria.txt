@@ -115,7 +115,7 @@ create_country_leader = {
 	name = "Tsar Boris III"
 	#desc =
 	picture = Portrait_Bulgaria_Boris_III.dds
-	expires = 1967.3.7
+	expire = 1967.3.7
 	ideology = royalism
 	traits = {
 		great_leader
@@ -125,7 +125,7 @@ create_country_leader = {
 	name = "Todor Zhivkov"
 	#desc =
 	picture = Portrait_Bulgaria_Todor_Zhivkov.dds
-	expires = 1972.6.2
+	expire = 1972.6.2
 	ideology = marxist_riveraism
 	traits = {
 		great_leader
@@ -141,7 +141,7 @@ create_country_leader = {
 #BUL_neutrality
 #IDEAS SETUP
 add_ideas = {
-	victorious_balkaner
+	victory_in_the_balkans
 }
 #Army limitations due to Treaty of Neuilly sur Seine
 set_rule = {

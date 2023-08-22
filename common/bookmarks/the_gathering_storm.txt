@@ -11,7 +11,7 @@ bookmarks = {
 			history = "BUL_GATHERING_STORM_DESC"
 			ideology = Reactionism
 			ideas = {
-				victorious_balkaner
+				victory_in_the_balkans
 			}
 			focuses = {
 			

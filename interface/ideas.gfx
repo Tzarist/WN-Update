@@ -8,7 +8,7 @@ spriteTypes = {
 	### new tfv nat spirit icons
 	
 	spriteType = {
-		name = "GFX_BUL_idea_victory_in_the_balkans"
-		texturefile = "gfx/interface/ideas//BUL_idea_victory_in_the_balkans.dds"
+		name = "GFX_idea_victory_in_the_balkans"
+		texturefile = "gfx/interface/ideas/BUL_idea_victory_in_the_balkans.dds"
 	}			
 }

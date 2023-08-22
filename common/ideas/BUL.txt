@@ -1,7 +1,7 @@
 ideas = {
 	country = {
-		victorious_balkaner = {
-			picture = GFX_BUL_idea_victory_in_the_balkans
+		victory_in_the_balkans = {
+			picture = GFX_idea_victory_in_the_balkans
 			allowed = {
 				original_tag = BUL
 			}
