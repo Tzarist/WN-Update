@@ -124,9 +124,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Todor Zhivkov"
 	#desc =
-	picture = Portrait_Bulgaria_Boris_III.dds
-	expires = 1967.3.7
-	ideology = royalism
+	picture = Portrait_Bulgaria_Todor_Zhivkov.dds
+	expires = 1972.6.2
+	ideology = marxist_riveraism
 	traits = {
 		great_leader
 	}

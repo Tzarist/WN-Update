@@ -21,7 +21,7 @@ ideas = {
 
 	country = { #DLC
 		victorious_balkaner = {
-			picture = generic_manpower_bonus
+			picture = idea_victory_in_the_balkans
 			allowed = {
 				original_tag = BUL
 			}
