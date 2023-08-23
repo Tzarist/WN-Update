@@ -136,7 +136,10 @@
  DIX_ADJ:0 "American"
 
  #New England
- NEN_Toryism:0 "New England"
+ NEN_Toryism:0 "Dominion Of New England"
+ NEN_Toryism_DEF:0 "New England"
+ NEN_Liberalism:0 "New England"
+ NEN_Liberalism_DEF:0 "New England"
  NEN_DEF:0 "New English"
  NEN_ADJ:0 "New English"
 
@@ -244,12 +247,12 @@
  CAL:0 "California"
  CAL_DEF:0 "California"
  CAL_ADJ:0 "Californian"
- GER_Despotism:0 "North Germany"
- GER_Despotism_DEF:0 "North Germany"
+ GER_Despotism:0 "North German Confederation"
+ GER_Despotism_DEF:0 "NGC"
  GER_DEF:0 "Germany"
  GER_ADJ:0 "German"
- ENG_Toryism:0 "United Kingdom"
- ENG_Toryism:0 "British"
+ ENG_Toryism:0 "The United Kingdom"
+ ENG_Toryism_DEF:0 "British"
  ENG:0 "Britain"
  ENG_DEF:0 "Britain"
  ENG_ADJ:0 "British"

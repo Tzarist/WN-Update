@@ -218,6 +218,11 @@ create_country_leader = {
 
 	}
 }
+
+set_autonomy = {
+	target = NEN
+	autonomous_state = autonomy_dominion
+}
 	create_equipment_variant = {
 		name = "O/P/R Class"
 		type = submarine_1
