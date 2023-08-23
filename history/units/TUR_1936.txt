@@ -217,7 +217,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 9932
+		location = 6888
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -229,7 +229,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 12476
+		location = 2097
 		division_template = "Dag Tugayi" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -319,7 +319,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 82
 		}
-		location = 12476
+		location = 919
 		division_template = "Bogazi Tugay"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "TUR" } }
 		start_experience_factor = 0.3
@@ -332,7 +332,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 83
 		}
-		location = 6935
+		location = 3795
 		division_template = "Bogazi Tugay"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "TUR" } }
 		start_experience_factor = 0.3
@@ -345,7 +345,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 84
 		}
-		location = 4512
+		location = 7620
 		division_template = "Bogazi Tugay"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "TUR" } }
 		start_experience_factor = 0.3
@@ -358,7 +358,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 85
 		}
-		location = 11853
+		location = 9912
 		division_template = "Bogazi Tugay"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "TUR" } }
 		start_experience_factor = 0.3
@@ -374,7 +374,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 4512
+		location = 7620
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -386,7 +386,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 4512
+		location = 1578
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -399,7 +399,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 11881
+		location = 6995
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -411,7 +411,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 11881
+		location = 6978
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5

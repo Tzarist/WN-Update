@@ -1,0 +1,9 @@
+bookmarks = {
+	bookmark = {
+		name = "ss"
+		desc = "ss"
+		date = 2000.1.1
+		picture = ""
+		default_country = ZIM
+	}
+}
