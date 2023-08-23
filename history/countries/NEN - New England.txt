@@ -62,24 +62,44 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = Toryism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 60
-	fascism = 3
-	communism = 20
-	neutrality = 17
+	Klanism = 0
+	Wilsonian = 0
+	Socialism = 0
+	Maximalism = 0
+	Labourism = 0
+	Toryism = 34
+	Guerrism = 0
+	Despotism = 0
+    Liberalism = 7.5 #done
+    Raronism = 13.75 #done
+    Marxism = 15.5 #done
+    Revivalism = 6 #done
+    Cantonalism = 8 #done
+    Libertarianism = 4.25 #done
+    Reactionism = 0 #done
+    Theologism = 11 #done
 }
-
+create_country_leader = {
+	name = "Thomas Dewey"
+	desc = ""
+	picture = "Portrait_New_England_Dewey.dds"
+	ideology = classical_liberalism
+	traits = {
+		#
+	}
+}
 create_country_leader = {
 	name = "Keen Johnson"
 	desc = ""
-	picture = "keen.dds"
-	ideology = conservatism
+	picture = "Portrait_New_England_Keen.dds"
+	ideology = constitutionalism
 	traits = {
 		#
 	}

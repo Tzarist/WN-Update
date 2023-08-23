@@ -17,9 +17,9 @@ bookmarks = {
 			
 			}
 		}
-		"LOU" = {
-			history = "LOU_GATHERING_STORM_DESC"
-			ideology = Raronism
+		"NEN" = {
+			history = "NEN_GATHERING_STORM_DESC"
+			ideology = Toryism
 			ideas = {
 			
 			}
@@ -47,9 +47,9 @@ bookmarks = {
 				
 			}
 		}
-		"TUR"={
-			history = "TUR_GATHERING_STORM_DESC"
-			ideology = Despotism
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = Toryism
 			ideas = {
 				
 			}	
@@ -57,9 +57,9 @@ bookmarks = {
 				
 			}		
 		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = Despotism
 			ideas = {
 			
 			}	
@@ -69,19 +69,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { has_dlc = "No Step Back" }
-			ideas = {
-			
-			}
-			focuses = {
-			
-			}	
-		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { NOT = { has_dlc = "No Step Back" } }
+			ideology = Reactionism
 			ideas = {
 			
 			}
