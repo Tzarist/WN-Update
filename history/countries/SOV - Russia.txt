@@ -39,13 +39,6 @@ starting_train_buffer = 3.0
 
 set_convoys = 50
 
-set_politics = {
-	ruling_party = Despotism
-	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
 create_country_leader = {
 	name = "Tzar Nicholas II"
 	#desc =
@@ -56,23 +49,23 @@ create_country_leader = {
 	}
 }
 
+set_politics = {
+    ruling_party = despotism 
+    last_election = "1932.1.1"
+    elections_allowed = no
+}
+
 set_popularities = {
-	Klanism = 0
-	Wilsonian = 0
-	Socialism = 0
-	Maximalism = 0
-	Labourism = 0
-	Toryism = 0
-	Guerrism = 0
-	Despotism = 34
-    Liberalism = 7.5 #done
-    Raronism = 13.75 #done
-    Marxism = 15.5 #done
-    Revivalism = 6 #done
-    Cantonalism = 8 #done
-    Libertarianism = 4.25 #done
-    Reactionism = 0 #done
-    Theologism = 11 #done
+    guerrism = 2
+    toryism = 15
+    liberalism = 4
+    marxism = 12
+    revivalism = 5
+    cantonalism = 2
+    raronism = 1
+   	despotism = 50
+    theologism = 1
+    reactionism = 8
 }
 ### VARIANTS ###
 # 1936 Start #

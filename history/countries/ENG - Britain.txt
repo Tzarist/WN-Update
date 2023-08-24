@@ -218,9 +218,24 @@ create_country_leader = {
 
 	}
 }
-
 set_autonomy = {
 	target = NEN
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = COL
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = CAN
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = QUE
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = DIX
 	autonomous_state = autonomy_dominion
 }
 	create_equipment_variant = {

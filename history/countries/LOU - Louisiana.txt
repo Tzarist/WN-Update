@@ -58,19 +58,23 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = raronism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+    ruling_party = raronism 
+    last_election = "1932.1.1"
+    elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 29
-	fascism = 9
-	communism = 4
-	neutrality = 12
-	raronism = 40
-	theologism = 6
+    toryism = 4
+    liberalism = 11
+    marxism = 2
+    socialism = 3
+    cantonalism = 6
+    raronism = 35
+    libertarianism = 14
+    despotism = 10
+    theologism = 10
+    klanism = 5
+
 }
 
 create_country_leader = {
@@ -78,20 +82,18 @@ create_country_leader = {
 	desc = "marycurzon_description"
 	picture = "marycurzon.dds"
 	ideology = curzonism
-	traits = { popular_figurehead }
-	expire = "1945.1.1.12"
-	}
+	expire = "1945.1.12"
 }
 
-create_country_leader = {
-	name = "John Milliken Parker Sr."
-	desc = ""
-	picture = "parker.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "John Milliken Parker Sr."
+#	desc = ""
+#	picture = "parker.dds"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
 
 1939.1.1 = {
 	set_politics = {

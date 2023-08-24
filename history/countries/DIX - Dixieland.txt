@@ -58,21 +58,23 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+    ruling_party = toryism 
+    last_election = "1932.1.1"
+    elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 35
-	fascism = 33
-	communism = 0
-	neutrality = 26
-	raronism = 4
-	theologism = 2
-}
+    toryism = 37
+    marxism = 2
+    revivalism = 7
+    raronism = 3
+    wilsonian = 10
+    libertarianism = 13 
+    theologism = 5
+    reactionism = 2
+    klanism = 21
 
+}
 create_country_leader = {
 	name = "Robert Alexander"
 	desc = "robertalexander_description"
@@ -80,7 +82,6 @@ create_country_leader = {
 	ideology = conservatism
 	traits = { hawk }
 		#
-	}
 }
 
 1939.1.1 = {

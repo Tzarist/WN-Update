@@ -54,20 +54,23 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+    ruling_party = liberalism
+    last_election = "1932.1.7"
+    elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 6
-	communism = 1
-	neutrality = 40
-	theologism = 3
-}
+    guerrism = 2
+    labourism = 30
+    liberalism = 35
+    marxism = 3
+    revivalism = 4
+    socialism = 5
+    wilsonian = 14
+    libertarianism = 5
+    theologism = 2
 
+}
 create_country_leader = {
 	name = "Samuel Jackson"
 	desc = "Samuel Jackson is the current president of California. Originally born to Scottish Immigrant parents in a lower class, he would work his way up as a true rags to riches story becoming one of the wealthist people in California from various investments. He would be elected in 1930 with a hopeful start under the banner of the Federal Party. But things turned sour when the Stock Markets in London and Paris crashed leaving millions of Californians out of jobs. Jackson tried his best to combat the losses and requested financial help from Britain and other European powers, but many people in his party want to stay strictly neutal and out of world affaris leading him to become even more unpopular."
