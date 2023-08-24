@@ -39,7 +39,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Koenig Wilhelm II"
+	name = "Wilhelm II"
 	#desc =
 	picture = Portrait_Germany_Wilhelm_II.dds
 	expire = 1967.3.7

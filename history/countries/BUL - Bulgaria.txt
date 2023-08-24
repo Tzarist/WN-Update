@@ -112,7 +112,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Tsar Boris III"
+	name = "Boris III"
 	#desc =
 	picture = Portrait_Bulgaria_Boris_III.dds
 	expire = 1967.3.7

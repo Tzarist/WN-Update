@@ -40,7 +40,7 @@ starting_train_buffer = 3.0
 set_convoys = 50
 
 create_country_leader = {
-	name = "Tzar Nicholas II"
+	name = "Nicholas II"
 	#desc =
 	picture = Portrait_Russia_Nicholas_II.dds
 	expire = 1967.3.7

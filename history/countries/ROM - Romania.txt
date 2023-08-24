@@ -358,28 +358,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "King Nicolas I"
+	name = "Nicolas I"
 	#desc =
 	picture = Portrait_Romania_Nicolas_I.dds
 	expire = 1967.3.7
 	ideology = royalism
 	traits = {
 		
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.15"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
 	}
 }
 
