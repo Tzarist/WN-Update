@@ -7,16 +7,6 @@ bookmarks = {
 		default_country = "BUL"
 		default = yes
 		
-		"BUL" = {
-			history = "BUL_GATHERING_STORM_DESC"
-			ideology = Reactionism
-			ideas = {
-				victory_in_the_balkans
-			}
-			focuses = {
-			
-			}
-		}
 		"NEN" = {
 			history = "NEN_GATHERING_STORM_DESC"
 			ideology = Toryism
@@ -76,6 +66,17 @@ bookmarks = {
 			focuses = {
 			
 			}	
+		}
+		
+		"BUL" = {
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = Reactionism
+			ideas = {
+				victory_in_the_balkans
+			}
+			focuses = {
+			
+			}
 		}
 
 		"---"={
