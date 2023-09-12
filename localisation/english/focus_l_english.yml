@@ -2,7 +2,18 @@
  #Bulgaria
  BUL_the_bulgarian_nation:0 "The Bulgarian Nation"
  BUL_the_bulgarian_nation_desc:0 "Bulgaria must not rely on it's allies [SOV.GetName] and [FRA.GetName] alone, we must prepare for anything."
- BUL_enforce_the_monarchy:0 "Enforce The Monarchy"
- BUL_enforce_the_monarchy_desc:0 "We must ally with our friends to the west, and the first step in that is to enforce the rule of the Tsar."
- BUL_question_the_tsar:0 "Question The Tsar"
- BUL_question_the_tsar_desc:0 "Continuing under the rule of Tsar Boris III will not lead to prospect in the Bulgarian nation, we must remove the monarchy from it, or we will crumble."
+  #Monarchist Path
+  BUL_enforce_the_monarchist_rule:0 "Enforce The Monarchist Rule"
+  BUL_enforce_the_monarchist_rule_desc:0 "Only the royal family can keep this great nation strong."
+   #Reactionist Path
+   BUL_return_to_our_roots:0 "Return To Our Roots"
+   BUL_return_to_our_roots_desc:0 "Our ancestors must not be forgotten, we will revive the old country, and retake all that is rightfully ours."
+   #Despotic Path
+   BUL_the_tsar_above_all:0 "The Tsar Above All"
+   BUL_the_tsar_above_all_desc:0 "The royal family will remain in power till the end of time."
+  #Non-Monarchist Path
+  BUL_discredit_the_tsar:0 "Discredit The Tsar"
+  BUL_discredit_the_tsar_desc:0 "The tsar cannot unlock the true potential of Bulgaria."
+   #Democratic Path
+   BUL_democracy_at_its_finest:0 "Democracy At Its Finest"
+   BUL_democracy_at_its_finest_desc:0 "Everything can be solved through democratic means, and the rule of a nation must not be left to one person."

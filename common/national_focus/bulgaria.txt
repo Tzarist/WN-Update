@@ -38,14 +38,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_enforce_the_monarchy
+		#Monarchist Path
+		id = BUL_enforce_the_monarchist_rule
 		icon = GFX_focus_generic_befriend_bulgaria
 		cost = 10
-		relative_position_id = BUL_the_bulgarian_nation
-		x = -3
+		x = -12
 		y = 1
+		relative_position_id = BUL_the_bulgarian_nation
 		prerequisite = { focus = BUL_the_bulgarian_nation }
-		mutually_exclusive = { focus = BUL_question_the_tsar }
 		available = {
 			is_puppet = no
 		}
@@ -54,54 +54,71 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_question_the_tsar
+		#Reactionist Path
+		id = BUL_return_to_our_roots
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -3
+		y = 1
+		relative_position_id = BUL_enforce_the_monarchist_rule
+		prerequisite = { focus = BUL_enforce_the_monarchist_rule }
+		mutually_exclusive = { focus = BUL_the_tsar_above_all }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		#Despotic Path
+		id = BUL_the_tsar_above_all
 		icon = GFX_focus_generic_befriend_bulgaria
 		cost = 10
 		x = 3
 		y = 1
+		relative_position_id = BUL_enforce_the_monarchist_rule
+		prerequisite = { focus = BUL_enforce_the_monarchist_rule }
+		mutually_exclusive = { focus = BUL_return_to_our_roots }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+
+	focus = {
+		#Non-Monarchy Paths
+		id = BUL_discredit_the_tsar
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 12
+		y = 1
 		relative_position_id = BUL_the_bulgarian_nation
 		prerequisite = { focus = BUL_the_bulgarian_nation }
-		mutually_exclusive = { focus = BUL_enforce_the_monarchy } 
 		available = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = Reactionism
-				popularity = -0.15
-			}
+			add_political_power = 15
 		}
 	}
 	focus = {
-		id = BUL_approach_greece
+		#Center Path
+		id = BUL_democracy_at_its_finest
 		icon = GFX_focus_generic_befriend_bulgaria
 		cost = 10
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = BUL_question_the_tsar
-		prerequisite = { focus = BUL_question_the_tsar }
-		mutually_exclusive = { focus = BUL_approach_poland } 
+		relative_position_id = BUL_discredit_the_tsar
+		prerequisite = { focus = BUL_discredit_the_tsar }
 		available = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_popularity = { ideology = Marxism popularity = 0.08 } 
-		}
-	}
-	focus = {
-		id = BUL_approach_poland
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
-		x = -1
-		y = 1
-		relative_position_id = BUL_question_the_tsar
-		prerequisite = { focus = BUL_question_the_tsar }
-		mutually_exclusive = { focus = BUL_approach_greece } 
-		available = {
-			is_puppet = no
-		}
-		completion_reward = {
-			add_popularity = { ideology = Socialism popularity = 0.08 } 
+			add_political_power = 15
 		}
 	}
 }
