@@ -514,6 +514,490 @@
 		ai_will_do = {
 		}
 	}
+
+
+
+
+	focus = {
+		id = NEN_pm_churchill
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 30
+		y = 0
+		#relative_position_id = NEN_
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_march_of_countryman
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_pm_churchill
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_pm_churchill }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_valentines_day_massacre
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_march_of_countryman
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_march_of_countryman }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_find_those_responsible
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 5
+		y = 1
+		relative_position_id = NEN_valentines_day_massacre
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_valentines_day_massacre }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = NEN_children_of_marx
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_find_those_responsible
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_find_those_responsible }
+		mutually_exclusive = {
+			focus = NEN_knights_of_liberty
+			focus = NEN_crusaders_of_columbus
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+
+	focus = {
+		id = NEN_arrest_the_leaders
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_children_of_marx
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_children_of_marx
+						focus = NEN_knights_of_liberty
+						focus = NEN_crusaders_of_columbus
+		}
+		mutually_exclusive = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_suspend_the_opposition
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_arrest_the_leaders
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_arrest_the_leaders }
+		mutually_exclusive = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = NEN_crusaders_of_columbus
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = -2
+		y = 1
+		relative_position_id = NEN_find_those_responsible
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_find_those_responsible }
+		mutually_exclusive = {
+			focus = NEN_children_of_marx
+			focus = NEN_knights_of_liberty
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = NEN_knights_of_liberty
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = NEN_find_those_responsible
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_find_those_responsible }
+		mutually_exclusive = {
+			focus = NEN_children_of_marx
+			focus = NEN_crusaders_of_columbus
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = NEN_silence_public_unrest
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = NEN_valentines_day_massacre
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_valentines_day_massacre }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = NEN_crush_the_press
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 2
+		y = 1
+		relative_position_id = NEN_silence_public_unrest
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_silence_public_unrest }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_favorable_headlines
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_crush_the_press
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_crush_the_press }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = NEN_secure_public_inf
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = NEN_silence_public_unrest
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_silence_public_unrest }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_stomp_the_worker
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_secure_public_inf
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_secure_public_inf }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	focus = {
+		id = NEN_calm_wallstreet
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 1
+		relative_position_id = NEN_stomp_the_worker
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_stomp_the_worker }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+
+	focus = {
+		id = NEN_the_time_is_nigh
+		icon = GFX_NEN_a_distant_memory
+		cost = 5
+		
+		x = 0
+		y = 2
+		relative_position_id = NEN_favorable_headlines
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = { focus = NEN_calm_wallstreet }
+		prerequisite = { focus = NEN_favorable_headlines }
+		prerequisite = { focus = NEN_suspend_the_opposition }
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
 }
 
 
