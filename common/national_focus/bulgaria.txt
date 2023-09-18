@@ -46,6 +46,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = BUL_the_bulgarian_nation
 		prerequisite = { focus = BUL_the_bulgarian_nation }
+		mutually_exclusive = { focus = BUL_discredit_the_tsar }
 		available = {
 			is_puppet = no
 		}
@@ -98,6 +99,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = BUL_the_bulgarian_nation
 		prerequisite = { focus = BUL_the_bulgarian_nation }
+		mutually_exclusive = { focus = BUL_enforce_the_monarchist_rule }
 		available = {
 			is_puppet = no
 		}
@@ -105,6 +107,8 @@ focus_tree = {
 			add_political_power = 15
 		}
 	}
+
+
 	focus = {
 		#Center Path
 		id = BUL_democracy_at_its_finest
@@ -114,6 +118,116 @@ focus_tree = {
 		y = 1
 		relative_position_id = BUL_discredit_the_tsar
 		prerequisite = { focus = BUL_discredit_the_tsar }
+		mutually_exclusive = { focus = BUL_power_to_the_people }
+		mutually_exclusive = { focus = BUL_bulgarian_nationalism }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		#Libertarianism Path
+		id = BUL_libertarianist_ideas
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_democracy_at_its_finest
+		prerequisite = { focus = BUL_democracy_at_its_finest }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+
+	focus = {
+		#Far-Left Path
+		id = BUL_power_to_the_people
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -8
+		y = 1
+		relative_position_id = BUL_discredit_the_tsar
+		prerequisite = { focus = BUL_discredit_the_tsar }
+		mutually_exclusive = { focus = BUL_democracy_at_its_finest }
+		mutually_exclusive = { focus = BUL_bulgarian_nationalism }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		#Marxist Path
+		id = BUL_for_the_people
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_power_to_the_people
+		prerequisite = { focus = BUL_power_to_the_people }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	
+	focus = {
+		#Far-RIght Path
+		id = BUL_bulgarian_nationalism
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 8
+		y = 1
+		relative_position_id = BUL_discredit_the_tsar
+		prerequisite = { focus = BUL_discredit_the_tsar }
+		mutually_exclusive = { focus = BUL_power_to_the_people }
+		mutually_exclusive = { focus = BUL_democracy_at_its_finest }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		#Guerrist Path
+		id = BUL_militarize_the_people
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -2
+		y = 1
+		relative_position_id = BUL_bulgarian_nationalism
+		prerequisite = { focus = BUL_bulgarian_nationalism }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		#Revivalist Path
+		id = BUL_people_and_holy_spirit
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 2
+		y = 1
+		relative_position_id = BUL_bulgarian_nationalism
+		prerequisite = { focus = BUL_bulgarian_nationalism }
 		available = {
 			is_puppet = no
 		}
