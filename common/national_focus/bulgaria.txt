@@ -233,6 +233,24 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 15
+			annex_country = {
+				target = TUR
+			}
+			annex_country = {
+				target = GRE
+			}
+		    annex_country = {
+				target = YUG
+			}
+			annex_country = {
+				target = ROM
+			}
+			annex_country = {
+				target = ALB
+			}
+			annex_country = {
+				target = MNT
+			}
 		}
 	}
 }
