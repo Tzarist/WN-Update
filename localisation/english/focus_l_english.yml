@@ -9,8 +9,36 @@
 
  BUL_appeal_royal_fam_to_masses:0 "Appeal The Royal Family To The Masses"
 
+ BUL_improve_balkan_relations:0 "Improve Balkan Relations"
+
+ BUL_return_land:0 "Return Land"
+
+ BUL_apease_the_people:0 "Apease The People"
+
+ BUL_negotiate_shared_licenses:0 "Negotiate Shared Licenses"
+
+ BUL_increase_arms_production:0 "Increase Arms Production"
+
+ BUL_decrease_balkan_tensions:0 "Decrease Balkan Tensions"
+
 
  BUL_the_tsar_and_god:0 "The Tsar And God"
+
+ BUL_enforce_god_and_his_beliefs:0 "Enforce God And His Beliefs"
+
+ BUL_burn_heretic_symbols:0 "Burn Heretic Symbols!"
+
+ BUL_force_christianity:0 "Force Christianity"
+
+ BUL_all_united_under_the_cross:0 "All United Under The Cross"
+
+ BUL_transform_non-christian_symbols:0 "Transform Non-Christian Symbols"
+
+ BUL_promote_christianity:0 "Promote Christianity"
+
+ BUL_finally_peace_and_god:0 "Finally, Peace And God"
+
+ BUL_take_the_holy_city:0 "Take The Holy City"
 
 
  BUL_discredit_the_tsar:0 "Discredit The Tsar"
@@ -41,7 +69,7 @@
 
  BUL_on_war_with_tsar:0 "On War With The Tsar"
 
- BUL_win_elections:0 "Win Election"
+ BUL_win_elections:0 "Win Elections"
 
  BUL_republic_of_bulgaria:0 "The Republic Of Bulgaria"
 

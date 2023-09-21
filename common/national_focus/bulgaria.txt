@@ -71,6 +71,109 @@ focus_tree = {
 			add_political_power = 15
 		}
 	}
+
+	focus = {
+		id = BUL_improve_balkan_relations
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_appeal_royal_fam_to_masses
+		prerequisite = { focus = BUL_appeal_royal_fam_to_masses }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_return_land
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = BUL_improve_balkan_relations
+		prerequisite = { focus = BUL_improve_balkan_relations }
+		mutually_exclusive = { focus = BUL_negotiate_shared_licenses }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_apease_the_people
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_return_land
+		prerequisite = { focus = BUL_return_land }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_negotiate_shared_licenses
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 1
+		y = 1
+		relative_position_id = BUL_improve_balkan_relations
+		prerequisite = { focus = BUL_improve_balkan_relations }
+		mutually_exclusive = { focus = BUL_return_land }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_increase_arms_production
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_negotiate_shared_licenses
+		prerequisite = { focus = BUL_negotiate_shared_licenses }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_decrease_balkan_tensions
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 1
+		y = 1
+		relative_position_id = BUL_apease_the_people
+		prerequisite = { 
+			focus = BUL_apease_the_people
+			focus = BUL_increase_arms_production
+	 	}
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+
 	focus = {
 		#Despotic Path
 		id = BUL_the_tsar_and_god
@@ -86,6 +189,143 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_enforce_god_and_his_beliefs
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_the_tsar_and_god
+		prerequisite = { focus = BUL_the_tsar_and_god }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_burn_heretic_symbols
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = BUL_enforce_god_and_his_beliefs
+		prerequisite = { focus = BUL_enforce_god_and_his_beliefs }
+		mutually_exclusive = { focus = BUL_transform_non-christian_symbols }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_force_christianity
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_burn_heretic_symbols
+		prerequisite = { focus = BUL_burn_heretic_symbols }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_all_united_under_the_cross
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_force_christianity
+		prerequisite = { focus = BUL_force_christianity }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_transform_non-christian_symbols
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 1
+		y = 1
+		relative_position_id = BUL_enforce_god_and_his_beliefs
+		prerequisite = { focus = BUL_enforce_god_and_his_beliefs }
+		mutually_exclusive = { focus BUL_burn_heretic_symbols }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_promote_christianity
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_transform_non-christian_symbols
+		prerequisite = { focus = BUL_transform_non-christian_symbols }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_finally_peace_and_god
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_promote_christianity
+		prerequisite = { focus = BUL_promote_christianity }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_take_the_holy_city
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = BUL_finally_peace_and_god
+		prerequisite = { 
+			focus = BUL_finally_peace_and_god
+			focus = BUL_all_united_under_the_cross
+		}
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = TUR
+				generator = { 797 }
+			}
 		}
 	}
 
