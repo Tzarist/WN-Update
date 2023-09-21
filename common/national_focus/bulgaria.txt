@@ -499,10 +499,12 @@ focus_tree = {
 		relative_position_id = BUL_balkan_socialist_ideas
 		prerequisite = { focus = BUL_balkan_socialist_ideas }
 		available = {
-			is_puppet = no
+			
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_war_support = 0.03
+			add_stability = -0.07
+			country_event = { id = bulgaria.1 }
 		}
 	}
 
