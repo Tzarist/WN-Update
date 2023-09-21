@@ -2,18 +2,73 @@
  #Bulgaria
  BUL_the_bulgarian_nation:0 "The Bulgarian Nation"
  BUL_the_bulgarian_nation_desc:0 "Bulgaria must not rely on it's allies [SOV.GetName] and [FRA.GetName] alone, we must prepare for anything."
-  #Monarchist Path
-  BUL_enforce_the_monarchist_rule:0 "Enforce The Monarchist Rule"
-  BUL_enforce_the_monarchist_rule_desc:0 "Only the royal family can keep this great nation strong."
-   #Reactionist Path
-   BUL_return_to_our_roots:0 "Return To Our Roots"
-   BUL_return_to_our_roots_desc:0 "Our ancestors must not be forgotten, we will revive the old country, and retake all that is rightfully ours."
-   #Despotic Path
-   BUL_the_tsar_above_all:0 "The Tsar Above All"
-   BUL_the_tsar_above_all_desc:0 "The royal family will remain in power till the end of time."
-  #Non-Monarchist Path
-  BUL_discredit_the_tsar:0 "Discredit The Tsar"
-  BUL_discredit_the_tsar_desc:0 "The tsar cannot unlock the true potential of Bulgaria."
-   #Democratic Path
-   BUL_democracy_at_its_finest:0 "Democracy At Its Finest"
-   BUL_democracy_at_its_finest_desc:0 "Everything can be solved through democratic means, and the rule of a nation must not be left to one person."
+
+
+ BUL_enforce_the_monarchist_rule:0 "Enforce The Monarchist Rule"
+ BUL_enforce_the_monarchist_rule_desc:0 "Only the royal family can keep this great nation strong."
+
+ BUL_appeal_royal_fam_to_masses:0 "Appeal The Royal Family To The Masses"
+
+
+ BUL_the_tsar_and_god:0 "The Tsar And God"
+
+
+ BUL_discredit_the_tsar:0 "Discredit The Tsar"
+ BUL_discredit_the_tsar_desc:0 "The tsar cannot unlock the true potential of Bulgaria."
+
+ BUL_allign_with_the_people:0 "Allign With The People"
+
+ BUL_balkan_socialist_ideas:0 "Balkan Socialist Ideas"
+
+ BUL_contact_greek_officials:0 "Contact Greek Officials"
+
+ BUL_contact_central_europe:0 "Contact Central Europe"
+
+ BUL_polish_support:0 "Polish Support"
+
+ BUL_red_bulgaria:0 "Red Bulgaria"
+
+ BUL_create_USBSR:0 "Create USBSR"
+
+ BUL_join_the_socialist_all:0 "Join The Socialist Alliance"
+
+
+ BUL_revive_hellenic_ways:0 "Revive The Old Hellenic Ways"
+
+ BUL_start_stripping_tsar_of_power:0 "Start Stripping The Tsar Of His Power"
+
+ BUL_return_democracy_to_balkans:0 "Return Democracy To The Balkans"
+
+ BUL_on_war_with_tsar:0 "On War With The Tsar"
+
+ BUL_win_elections:0 "Win Election"
+
+ BUL_republic_of_bulgaria:0 "The Republic Of Bulgaria"
+
+
+ BUL_bulgarian_nationalism:0 "Bulgarian Nationalism"
+
+ BUL_militarize_the_bulgarian_people:0 "Militarize The Bulgarian People"
+
+ BUL_militarize_the_states:0 "Militarize The States"
+
+ BUL_show_monarchs_might_of_people:0 "Show The Monarchs The Might Of The People"
+
+ BUL_the_bulgarian_guerrism:0 "Bulgarian Guerrism"
+
+
+ BUL_bulgar_ways:0 "The Bulgar Ways"
+
+ BUL_focus_on_agriculture:0 "Focus On Agriculture"
+
+ BUL_khanate_of_bulgaria:0 "Khanate Of Bulgaria"
+
+
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
+ confirm_cancel_national_focus:0 "Cancel National Focus"
+ confirm_cancel_national_focus_progress_loss_singular:0 "You will lose §R$LOST_DAYS$§! day of progress."
+ confirm_cancel_national_focus_progress_loss_plural:0 "You will lose §R$LOST_DAYS$§! days of progress."
+ confirm_cancel_national_focus_desc:0 "Are you sure you want to cancel the national focus §H$FOCUS_NAME$§!?"
