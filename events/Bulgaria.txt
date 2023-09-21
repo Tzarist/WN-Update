@@ -45,3 +45,21 @@ country_event = {
 		}
 	}
 }
+
+# National Assembly
+country_event = {
+	id = bulgaria.3
+	title = bulgaria.3.t
+	desc = bulgaria.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = { #Let Them Take Some Responsibility
+		name = bulgaria.3.a
+	}
+}
