@@ -1,4 +1,8 @@
 ﻿l_english:
- bulgaria.1.t:0 "Bulgarian Officials Rumoured To Have Reached Out To Greece"
- bulgaria.1.d:0 "Recently a rumour has been spread, claiming that Bulgarian and Greek officials have met each other, without the knowledge of Tsar [BUL.getLeader]. Is this something that should worry the people, or just a made-up story?"
- bulgaria.1.a:0 "That Does Not Sound Good."
+ bulgaria.1.t:0 "Bulgarian Politicans May Be Plotting Against The Tsar"
+ bulgaria.1.d:0 "Reports say, that Bulgarian politicians hold meetings, where sources say, they are talking against the tsar and the Royal Family. The tsar must do something quick."
+ bulgaria.1.a:0 "The Monarchist End Is Near"
+
+ bulgaria.2.t:0 "Bulgarian Officials Rumoured To Have Reached Out To Greece"
+ bulgaria.2.d:0 "Recently a rumour has been spread, claiming that Bulgarian and Greek officials have met each other, without the knowledge of Tsar [BUL.getLeader]. Is this something that should worry the people, or just a made-up story?"
+ bulgaria.2.a:0 "That Does Not Sound Good."

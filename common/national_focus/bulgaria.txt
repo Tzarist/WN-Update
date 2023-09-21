@@ -369,13 +369,29 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUL_start_stripping_tsar_of_power
+		id = BUL_create_national_assembly
 		icon = GFX_focus_generic_befriend_bulgaria
 		cost = 10
 		x = 0
 		y = 1
 		relative_position_id = BUL_revive_hellenic_ways
 		prerequisite = { focus = BUL_revive_hellenic_ways }
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = BUL_start_stripping_tsar_of_power
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = BUL_create_national_assembly
+		prerequisite = { focus = BUL_create_national_assembly }
 		available = {
 			is_puppet = no
 		}

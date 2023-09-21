@@ -4,7 +4,7 @@
 
 add_namespace = bulgaria
 
-# Officials Reach To Greece
+#Bulgarian Politicians Against The Tsar 
 country_event = {
 	id = bulgaria.1
 	title = bulgaria.1.t
@@ -17,8 +17,29 @@ country_event = {
 		days = 5
 	}
 
-	option = { #That Does Not Sound Good
+	option = { #The Monarchist End Is Near
 		name = bulgaria.1.a
+		effect_tooltip = {
+			add_political_power = -10
+		}
+	}
+}
+
+# Officials Reach Out To Greece
+country_event = {
+	id = bulgaria.2
+	title = bulgaria.2.t
+	desc = bulgaria.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = { #That Does Not Sound Good
+		name = bulgaria.2.a
 		effect_tooltip = {
 			add_political_power = -10
 		}
