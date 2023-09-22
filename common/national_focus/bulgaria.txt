@@ -655,6 +655,20 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = BUL_usbsr
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
+		relative_position_id = BUL_create_USBSR
+		x = 0
+		y = 10
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+
+
 	
 	focus = {
 		#Far-Right Path
