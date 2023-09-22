@@ -16,5 +16,21 @@ ideas = {
 				surrender_limit = 0.05
 			}
 		}
+
+		national_assembly = {
+			#picture = 
+			allowed = {
+				original_tag = BUL
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = -0.025
+				surrender_limit = 0.0125
+			}
+		}
 	}
 }

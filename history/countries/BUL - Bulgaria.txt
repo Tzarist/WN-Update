@@ -126,7 +126,7 @@ create_country_leader = {
 	#desc =
 	picture = Portrait_Bulgaria_Todor_Zhivkov.dds
 	expire = 1972.6.2
-	ideology = marxist_riveraism
+	ideology = state_socialism
 	traits = {
 		great_leader
 	}
