@@ -26,22 +26,23 @@ focus_tree = {
 
 	focus = {
 		id = BUL_the_bulgarian_nation
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_the_third_bulgarian_empire
+		cost = 5
 		x = 15
 		y = 0
 		available = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_stability = 0.03
+			add_political_power = 10
 		}
 	}
 	focus = {
 		#Monarchist Path
 		id = BUL_enforce_the_monarchist_rule
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_power_to_the_tsar
+		cost = 5
 		x = -6
 		y = 1
 		relative_position_id = BUL_the_bulgarian_nation
@@ -52,12 +53,20 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 15
+			add_popularity = {
+				ideology = Reactionism
+				popularity = 0.06
+			}
+			add_popularity = {
+				ideology = Theologism
+				popularity = 0.04
+			}
 		}
 	}
 	focus = {
 		#Reactionist Path
 		id = BUL_appeal_royal_fam_to_masses
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_rom_royal_dictatorship
 		cost = 10
 		x = -2
 		y = 1
@@ -74,7 +83,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_improve_balkan_relations
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_BUL_free_balkan_states
 		cost = 10
 		x = 0
 		y = 1
@@ -90,7 +99,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_return_land
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_GRE_a_land_of_mountains
 		cost = 10
 		x = -1
 		y = 1
@@ -107,7 +116,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_apease_the_people
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_BUL_power_to_the_tsar
 		cost = 10
 		x = 0
 		y = 1
@@ -123,7 +132,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_negotiate_shared_licenses
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_generic_license_production
 		cost = 10
 		x = 1
 		y = 1
@@ -140,7 +149,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_increase_arms_production
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_generic_small_arms
 		cost = 10
 		x = 0
 		y = 1
@@ -156,7 +165,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_decrease_balkan_tensions
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_BUL_free_balkan_states
 		cost = 10
 		x = 1
 		y = 1
@@ -177,7 +186,7 @@ focus_tree = {
 	focus = {
 		#Despotic Path
 		id = BUL_the_tsar_and_god
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_mex_restore_the_army_of_christ
 		cost = 10
 		x = 2
 		y = 1
@@ -194,7 +203,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_enforce_god_and_his_beliefs
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
 		cost = 10
 		x = 0
 		y = 1
@@ -210,7 +219,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_burn_heretic_symbols
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = -1
 		y = 1
@@ -227,7 +236,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_force_christianity
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = 0
 		y = 1
@@ -243,7 +252,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_all_united_under_the_cross
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = 0
 		y = 1
@@ -259,13 +268,13 @@ focus_tree = {
 
 	focus = {
 		id = BUL_transform_non-christian_symbols
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = 1
 		y = 1
 		relative_position_id = BUL_enforce_god_and_his_beliefs
 		prerequisite = { focus = BUL_enforce_god_and_his_beliefs }
-		mutually_exclusive = { focus BUL_burn_heretic_symbols }
+		mutually_exclusive = { focus = BUL_burn_heretic_symbols }
 		available = {
 			is_puppet = no
 		}
@@ -276,7 +285,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_promote_christianity
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = 0
 		y = 1
@@ -292,7 +301,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_finally_peace_and_god
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = 0
 		y = 1
@@ -308,7 +317,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_take_the_holy_city
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_unknown
 		cost = 10
 		x = -1
 		y = 1
@@ -333,8 +342,8 @@ focus_tree = {
 	focus = {
 		#Non-Monarchy Paths
 		id = BUL_discredit_the_tsar
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_plot_against_boris
+		cost = 5
 		x = 6
 		y = 1
 		relative_position_id = BUL_the_bulgarian_nation
@@ -346,6 +355,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			country_event = { id = bulgaria.1 }
+			add_popularity = {
+				ideology = Reactionism
+				popularity = -0.125
+			}
 		}
 	}
 
@@ -353,8 +366,8 @@ focus_tree = {
 	focus = {
 		#Center Path
 		id = BUL_revive_hellenic_ways
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_goal_support_democracy
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = BUL_discredit_the_tsar
@@ -371,7 +384,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_create_national_assembly
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_generic_national_unity
 		cost = 10
 		x = 0
 		y = 1
@@ -391,8 +404,8 @@ focus_tree = {
 
 	focus = {
 		id = BUL_start_stripping_tsar_of_power
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_plot_against_boris
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = BUL_create_national_assembly
@@ -407,7 +420,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_return_democracy_to_balkans
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_support_democracy
 		cost = 10
 		x = 0
 		y = 1
@@ -423,7 +436,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_on_war_with_tsar
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_spa_eliminate_the_carlists
 		cost = 10
 		x = -1
 		y = 1
@@ -440,7 +453,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_win_elections
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_generic_monarchy_1
 		cost = 10
 		x = 1
 		y = 1
@@ -457,8 +470,8 @@ focus_tree = {
 
 	focus = {
 		id = BUL_republic_of_bulgaria
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_consolidate_the_third_bulgarian_state
+		cost = 5
 		x = 0
 		y = 2
 		relative_position_id = BUL_return_democracy_to_balkans
@@ -478,8 +491,8 @@ focus_tree = {
 	focus = {
 		#Far-Left Path
 		id = BUL_allign_with_the_people
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
 		x = -4
 		y = 1
 		relative_position_id = BUL_discredit_the_tsar
@@ -496,7 +509,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_balkan_socialist_ideas
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_BUL_free_balkan_states
 		cost = 10
 		x = -1
 		y = 1
@@ -513,7 +526,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_contact_greek_officials
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_generic_befriend_greece
 		cost = 10
 		x = 0
 		y = 1
@@ -531,8 +544,8 @@ focus_tree = {
 
 	focus = {
 		id = BUL_create_USBSR
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5
 		x = -1
 		y = 1
 		relative_position_id = BUL_red_bulgaria
@@ -551,7 +564,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_contact_central_europe
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_usa_focus_on_europe
 		cost = 10
 		x = 1
 		y = 1
@@ -568,7 +581,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_polish_support
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_generic_polish_deal
 		cost = 10
 		x = 0
 		y = 1
@@ -584,8 +597,8 @@ focus_tree = {
 
 	focus = {
 		id = BUL_join_the_socialist_all
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_generic_join_comintern
+		cost = 5
 		x = 1
 		y = 1
 		relative_position_id = BUL_red_bulgaria
@@ -601,7 +614,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_red_bulgaria
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_chi_cooperation_with_the_communists
 		cost = 10
 		x = 0
 		y = 3
@@ -625,10 +638,19 @@ focus_tree = {
 					ruling_party = Reactionism
 				}
 				size = 0.6
+				keep_all_characters = yes
 			}
 			add_popularity = {
 				ideology = Socialism
 				popularity = 1
+			}
+			country_event = { id = bulgaria.4 }
+			remove_ideas = {
+				victory_in_the_balkans
+			}
+			add_named_threat = {
+				threat = 1
+				name = "Bulgarian Socialist Revolution"
 			}
 		}
 	}
@@ -637,8 +659,8 @@ focus_tree = {
 	focus = {
 		#Far-Right Path
 		id = BUL_bulgarian_nationalism
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_promote_bulgarian_nationalism
+		cost = 5
 		x = 4
 		y = 1
 		relative_position_id = BUL_discredit_the_tsar
@@ -656,7 +678,7 @@ focus_tree = {
 	focus = {
 		#Guerrist Path
 		id = BUL_militarize_the_bulgarian_people
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_generic_military_deal
 		cost = 10
 		x = -1
 		y = 1
@@ -673,7 +695,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_militarize_the_states
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_generic_small_arms
 		cost = 10
 		x = 0
 		y = 1
@@ -689,7 +711,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_show_monarchs_might_of_people
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_goal_generic_military_sphere
 		cost = 10
 		x = 0
 		y = 1
@@ -705,8 +727,8 @@ focus_tree = {
 
 	focus = {
 		id = BUL_the_bulgarian_guerrism
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_generic_combined_arms
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = BUL_show_monarchs_might_of_people
@@ -722,7 +744,7 @@ focus_tree = {
 	focus = {
 		#Revivalist Path
 		id = BUL_bulgar_ways
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_ger_revive_kaiserreich
 		cost = 10
 		x = 1
 		y = 1
@@ -740,7 +762,7 @@ focus_tree = {
 	focus = {
 		#Revivalist Path
 		id = BUL_focus_on_agriculture
-		icon = GFX_focus_generic_befriend_bulgaria
+		icon = GFX_focus_BUL_cooperate_with_the_zveno
 		cost = 10
 		x = 0
 		y = 1
@@ -757,8 +779,8 @@ focus_tree = {
 	focus = {
 		#Revivalist Path
 		id = BUL_khanate_of_bulgaria
-		icon = GFX_focus_generic_befriend_bulgaria
-		cost = 10
+		icon = GFX_focus_BUL_restore_the_bulgarian_patriarchate
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = BUL_focus_on_agriculture

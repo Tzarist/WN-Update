@@ -63,3 +63,19 @@ country_event = {
 		name = bulgaria.3.a
 	}
 }
+
+# Bulgarian Civil War And Tsar Boris Death
+country_event = {
+	id = bulgaria.4
+	title = bulgaria.4.t
+	desc = bulgaria.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = { # R.I.P. Boris
+		name = bulgaria.4.a
+	}
+}
