@@ -1,28 +1,6 @@
 
 music_station = "base_music"
 
-music = {
-	song = "maintheme"
-	chance = {
-		modifier = {
-			factor = 0.5
-		}		
-	}
-}
-
-# GLORIOUS BULGARIA ############
-
-music = {
-	song = "shumimaritsa"
-
-	chance = {
-		modifier = {
-			factor = 1.5
-			tag = BUL
-		}
-	}
-}
-
 ## PEACE SONGS ##################
 #music = {
 #	song = "general_peace_1"

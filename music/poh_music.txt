@@ -1,0 +1,25 @@
+music_station = "poh_station"
+
+music = {
+	song = "maintheme"
+	chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+# GLORIOUS BULGARIA ############
+
+music = {
+	song = "shumimaritsa"
+
+	chance = {
+		factor = 1.5
+		modifier = {
+			factor = 100
+			tag = BUL
+		}
+	}
+}

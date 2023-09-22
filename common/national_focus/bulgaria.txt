@@ -649,7 +649,7 @@ focus_tree = {
 				victory_in_the_balkans
 			}
 			add_named_threat = {
-				threat = 1
+				threat = 7.3
 				name = "Bulgarian Socialist Revolution"
 			}
 		}
