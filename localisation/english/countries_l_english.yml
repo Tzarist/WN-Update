@@ -582,10 +582,13 @@
  DEN_ADJ:0 "Danish"
  
  #Bulgaria
+ UBR_Socialism:0 "USBSR"
+ UBR_Socialism_ADJ:0 "USBSR"
+ UBR_Socialism_DEF:0 "Union Of Soviet Balkan Socialist States"
  BUL_Reactionism:0 "Tsardom Of Bulgaria"
  BUL_Reactionism_DEF:0 "Tsardom Of Bulgaria"
- BUL_Marxism:0 "People's Republic Of Bulgaria"
- BUL_Marxism_DEF:0 "People's Republic Of Bulgaria"
+ BUL_Socialism:0 "People's Republic Of Bulgaria"
+ BUL_Socialism_DEF:0 "People's Republic Of Bulgaria"
 
  POR_fascism:0 "Greater Portugal"
  POR_fascism_DEF:0 "Greater Portugal"

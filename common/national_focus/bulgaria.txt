@@ -344,7 +344,8 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_stability = -0.05
+			country_event = { id = bulgaria.1 }
 		}
 	}
 
@@ -380,7 +381,11 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_political_power = 15
+			add_stability = 0.06
+			add_ideas = {
+				national_assembly
+			}
+			country_event = { id = bulgaria.3 }
 		}
 	}
 
@@ -520,7 +525,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.03
 			add_stability = -0.07
-			country_event = { id = bulgaria.1 }
+			country_event = { id = bulgaria.2 }
 		}
 	}
 
@@ -535,9 +540,12 @@ focus_tree = {
 		prerequisite = { focus = BUL_contact_greek_officials }
 		available = {
 			is_puppet = no
+			has_government = Socialism
+			has_war = no
 		}
 		completion_reward = {
 			add_political_power = 15
+			set_cosmetic_tag = UBR
 		}
 	}
 
@@ -606,7 +614,22 @@ focus_tree = {
 			is_puppet = no
 		}
 		completion_reward = {
-			add_political_power = 15
+			start_civil_war = {
+				ideology = Socialism
+				ruling_party = Socialism
+				capital = 212
+				states = {
+					212 106 731 184
+				}
+				set_politics = {
+					ruling_party = Reactionism
+				}
+				size = 0.6
+			}
+			add_popularity = {
+				ideology = Socialism
+				popularity = 1
+			}
 		}
 	}
 
