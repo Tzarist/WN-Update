@@ -6,6 +6,13 @@ music = {
 	volume = 0.65
 }
 
+# BULGARIA THEME
+music = {
+	name = "shumimaritsa"
+	file = "shumimaritsa.ogg"
+	volume = 0.65
+}
+
 # General Peace:
 music = {
 	name = "general_peace_1"

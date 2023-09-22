@@ -5,25 +5,24 @@ state={
 		657 687 3076 9635 
 	}
 
+	resources = {
+		steel = 5
+	}
+
 	history={
 		owner = BUL
 		victory_points = {
 			657 3 
 		}
 		buildings = {
-			657 = {
 				naval_base = 8
-
-			}
-			687 = {
-				naval_base = 1
-
-			}
+				arms_factory = 2
+				infrastructure = 2
 		}
 		add_core_of = BUL
 	}
 	manpower=1532430
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=2.000
 	state_category=city
-	local_supplies=0.000
+	local_supplies=10
 }
