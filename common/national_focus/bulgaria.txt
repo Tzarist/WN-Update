@@ -491,7 +491,7 @@ focus_tree = {
 	focus = {
 		#Far-Left Path
 		id = BUL_allign_with_the_people
-		icon = GFX_goal_support_communism
+		icon = GFX_focus_BUL_allign_with_the_people
 		cost = 5
 		x = -4
 		y = 1
@@ -509,7 +509,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_balkan_socialist_ideas
-		icon = GFX_focus_BUL_free_balkan_states
+		icon = GFX_focus_BUL_balkan_socialist_ideas
 		cost = 10
 		x = -1
 		y = 1

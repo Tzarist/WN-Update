@@ -27,6 +27,18 @@ spriteTypes = {
 	}
 
 
+	#### Bulgaria icons
+
+	SpriteType = {
+		name = "GFX_focus_BUL_balkan_socialist_ideas"
+		texturefile = "gfx/interface/goals/focus_BUL_balkan_socialist_ideas.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_BUL_allign_with_the_people"
+		texturefile = "gfx/interface/goals/focus_BUL_allign_with_the_people.dds"			
+	}
+
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
