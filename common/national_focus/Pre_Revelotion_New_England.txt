@@ -140,7 +140,7 @@
 	
 	focus = {
 		id = NEN_thoughts_of_freedom
-		icon = GFX_NEN_thoughts_of_freedom
+		icon = GFX_focus_NEN_thoughts_of_freedom
 		cost = 5
 		
 		x = 0
@@ -245,7 +245,7 @@
 	
 	focus = {
 		id = NEN_america_for_thomas
-		icon = GFX_NEN_america_for_thomas
+		icon = GFX_focus_NEN_america_for_thomas
 		cost = 5.8
 		
 		x = 0
@@ -284,7 +284,7 @@
 	
 	focus = {
 		id = NEN_america_for_dewey
-		icon = GFX_NEN_america_for_dewey
+		icon = GFX_focus_NEN_america_for_dewey
 		cost = 5.8
 		
 		x = -2
@@ -323,7 +323,7 @@
 	
 	focus = {
 		id = NEN_state_of_rights
-		icon = GFX_NEN_state_of_rights
+		icon = GFX_focus_NEN_state_of_rights
 		cost = 5
 		
 		x = 1
@@ -486,7 +486,7 @@
 	
 	focus = {
 		id = NEN_new_england_for_churchil
-		icon = GFX_NEN_new_england_for_churchil
+		icon = GFX_focus_NEN_new_england_for_churchil
 		cost = 5.8
 		
 		x = 0

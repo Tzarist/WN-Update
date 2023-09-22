@@ -3,6 +3,30 @@ spriteTypes = {
 	name = "GFX_colonial_economic_recovery_plan"
 	texturefile = "gfx/interface/goals/focus_economic_recovery_plan.dds"			
 	}
+	#### New England icons
+
+	SpriteType = {
+		name = "GFX_focus_NEN_america_for_dewey"
+		texturefile = "gfx/interface/goals/focus_NEN_america_for_dewey.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_NEN_america_for_thomas"
+		texturefile = "gfx/interface/goals/focus_NEN_america_for_thomas.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_NEN_new_england_for_churchil"
+		texturefile = "gfx/interface/goals/focus_NEN_new_england_for_churchil.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_NEN_state_of_rights"
+		texturefile = "gfx/interface/goals/focus_NEN_state_of_rights.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_NEN_thoughts_of_freedom"
+		texturefile = "gfx/interface/goals/focus_NEN_thoughts_of_freedom.dds"			
+	}
+
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
