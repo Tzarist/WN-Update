@@ -3,7 +3,7 @@ music_station = "poh_station"
 music = {
 	song = "maintheme"
 	chance = {
-		factor = 0.5
+		factor = 3
 		modifier = {
 			factor = 0.5
 		}		
@@ -16,10 +16,97 @@ music = {
 	song = "shumimaritsa"
 
 	chance = {
-		factor = 1.5
+		factor = 2
 		modifier = {
-			factor = 100
+			factor = 15
 			tag = BUL
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "kraibosfora"
+
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 13
+			tag = BUL
+			has_war = no
+		}
+	}
+}
+
+music = {
+	song = "theswordofasparuh"
+
+	chance = {
+		factor = 3.5
+		modifier = {
+			factor = 9
+			tag = BUL
+			has_war = no
+		}
+		modifier = {
+			factor = 15
+			tag = BUL
+			has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "meetme"
+
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 3
+			has_government = Socialism
+		}
+		modifier = {
+			factor = 3
+			has_government = Marxism
+		}
+		modifier = {
+			factor = 3
+			has_government = Maximalist
+		}
+
+		modifier = {
+			factor = 5
+			tag = BUL
+			has_government = Socialism
+		}
+		modifier = {
+			factor = 5
+			tag = BUL
+			has_government = Marxism
+		}
+		modifier = {
+			factor = 5
+			tag = BUL
+			has_government = Maximalist
+		}
+
+		modifier = {
+			factor = 12
+			tag = BUL
+			has_government = Socialism
+			has_war = yes
+		}
+		modifier = {
+			factor = 12
+			tag = BUL
+			has_government = Marxism
+			has_war = yes
+		}
+		modifier = {
+			factor = 12
+			tag = BUL
+			has_government = Maximalist
+			has_war = yes
 		}
 	}
 }

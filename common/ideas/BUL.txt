@@ -32,5 +32,20 @@ ideas = {
 				surrender_limit = 0.0125
 			}
 		}
+
+		socialist_alliance = {
+			#picture = 
+			allowed = {
+				original_tag = BUL
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			rule = {
+				can_create_factions = yes
+				can_join_factions = yes
+			}
+		}
 	}
 }

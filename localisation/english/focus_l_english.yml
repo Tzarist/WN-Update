@@ -44,6 +44,7 @@
  BUL_discredit_the_tsar:0 "Discredit The Tsar"
  BUL_discredit_the_tsar_desc:0 "The tsar cannot unlock the true potential of Bulgaria."
 
+
  BUL_allign_with_the_people:0 "Allign With The People"
 
  BUL_balkan_socialist_ideas:0 "Balkan Socialist Ideas"
@@ -56,7 +57,15 @@
 
  BUL_red_bulgaria:0 "Red Bulgaria"
 
+ BUL_reach_out_for_greek_support:0 "Reach Out For Greek Support"
+
  BUL_create_USBSR:0 "Create USBSR"
+
+
+ BUL_usbsr:0 "USBSR"
+
+
+ BUL_hungarian_help:0 "Hungarian Help"
 
  BUL_join_the_socialist_all:0 "Join The Socialist Alliance"
 

@@ -95,7 +95,7 @@ set_party_name = {
 set_popularities = {
 	Klanism = 0
 	Wilsonian = 0
-	Socialism = 0
+	Socialism = 3
 	Maximalism = 0
 	Labourism = 0
 	Toryism = 0
@@ -103,7 +103,7 @@ set_popularities = {
 	Despotism = 0
     Liberalism = 7.5 #done
     Raronism = 13.75 #done
-    Marxism = 15.5 #done
+    Marxism = 12.5 #done
     Revivalism = 6 #done
     Cantonalism = 8 #done
     Libertarianism = 4.25 #done
@@ -330,8 +330,6 @@ set_research_slots = 3 #DLC
 #RULING PARTY
 set_politics = { #DLC
 	ruling_party = reactionism
-	last_election = "1935.1.22"
-	election_frequency = 48
 	elections_allowed = no
 }
 

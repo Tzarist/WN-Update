@@ -22,7 +22,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 50 y = 1500 }
+	continuous_focus_position = { x = 50 y = 2500 }
 
 	focus = {
 		id = BUL_the_bulgarian_nation
@@ -546,11 +546,10 @@ focus_tree = {
 		id = BUL_create_USBSR
 		icon = GFX_focus_generic_soviet_politics
 		cost = 5
-		x = -1
+		x = 0
 		y = 1
-		relative_position_id = BUL_red_bulgaria
-		prerequisite = { focus = BUL_red_bulgaria }
-		prerequisite = { focus = BUL_contact_greek_officials }
+		relative_position_id = BUL_reach_out_for_greek_support
+		prerequisite = { focus = BUL_reach_out_for_greek_support }
 		available = {
 			is_puppet = no
 			has_government = Socialism
@@ -599,11 +598,10 @@ focus_tree = {
 		id = BUL_join_the_socialist_all
 		icon = GFX_focus_generic_join_comintern
 		cost = 5
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = BUL_red_bulgaria
-		prerequisite = { focus = BUL_red_bulgaria }
-		prerequisite = { focus = BUL_polish_support }
+		relative_position_id = BUL_hungarian_help
+		prerequisite = { focus = BUL_hungarian_help }
 		available = {
 			is_puppet = no
 		}
@@ -622,11 +620,29 @@ focus_tree = {
 		prerequisite = { 
 			focus = BUL_polish_support
 			focus = BUL_contact_greek_officials
-	}
+		}
 		available = {
 			is_puppet = no
 		}
 		completion_reward = {
+			GRE = {
+				set_politics = {
+					ruling_party = Socialism
+					elections_allowed = no
+				}
+				modifier = {
+					civil_war_involvement_tension = 0.05
+				}
+			}
+			ALL = {
+				if = {
+					limit = {
+						has_government = Socialism
+					}
+					add_opinion_modifier = { target = BUL modifier = huge_increase }
+					add_opinion_modifier = { target = BUL modifier = huge_increase }
+				}
+			}
 			start_civil_war = {
 				ideology = Socialism
 				ruling_party = Socialism
@@ -649,9 +665,56 @@ focus_tree = {
 				victory_in_the_balkans
 			}
 			add_named_threat = {
-				threat = 7.3
+				threat = 50
 				name = "Bulgarian Socialist Revolution"
 			}
+		}
+	}
+
+	focus = {
+		id = BUL_reach_out_for_greek_support
+		icon = GFX_focus_generic_befriend_greece
+		relative_position_id = BUL_red_bulgaria
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUL_red_bulgaria }
+		prerequisite = { focus = BUL_contact_greek_officials }
+		available = {
+			has_government = Socialism
+			has_war = yes
+		}
+		completion_reward = {
+			add_ideas = {
+				socialist_alliance
+			}
+			create_faction = "socialist_faction"
+			add_to_faction = GRE
+			GRE = {
+				add_ideas = {
+					socialist_alliance
+				}
+			}
+		}
+	}
+
+
+
+
+	focus = {
+		id = BUL_hungarian_help
+		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
+		relative_position_id = BUL_red_bulgaria
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = BUL_red_bulgaria }
+		prerequisite = { focus = BUL_polish_support }
+		available = {
+			has_government = Socialism
+			has_war = yes
+		}
+		completion_reward = {
 		}
 	}
 
@@ -660,8 +723,8 @@ focus_tree = {
 		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
 		cost = 5
 		relative_position_id = BUL_create_USBSR
-		x = 0
-		y = 10
+		x = 1
+		y = 5
 		available = {
 			has_cosmetic_tag = UBR
 		}

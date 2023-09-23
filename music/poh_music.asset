@@ -6,9 +6,27 @@ music = {
 	volume = 0.65
 }
 
-# BULGARIA THEME
+# BULGARIAN SONGS
 music = {
 	name = "shumimaritsa"
 	file = "shumimaritsa.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "theswordofasparuh"
+	file = "theswordofasparuh.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "kraibosfora"
+	file = "kraibosfora.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "meetme"
+	file = "meetme.ogg"
 	volume = 0.65
 }
