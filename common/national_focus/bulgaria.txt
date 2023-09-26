@@ -730,6 +730,127 @@ focus_tree = {
 		}
 		completion_reward = { }
 	}
+	focus = {
+		id = BUL_integrate_greek_lands
+		icon = GFX_focus_generic_befriend_greece
+		cost = 5
+		relative_position_id = BUL_usbsr
+		x = 0
+		y = 2
+		prerequisite = { focus = BUL_usbsr }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = BUL_influence_romanian_politics
+		icon = GFX_focus_invite_romania
+		cost = 5
+		relative_position_id = BUL_usbsr
+		x = -4
+		y = 1
+		prerequisite = { focus = BUL_usbsr }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = BUL_romanian_coup
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
+		relative_position_id = BUL_influence_romanian_politics
+		x = 0
+		y = 1
+		prerequisite = { focus = BUL_influence_romanian_politics }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_influence_serbian_politics
+		icon = GFX_focus_YUG_dissolve_serbia
+		cost = 5
+		relative_position_id = BUL_usbsr
+		x = -2
+		y = 1
+		prerequisite = { focus = BUL_usbsr }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = BUL_serbian_coup
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
+		relative_position_id = BUL_influence_serbian_politics
+		x = 0
+		y = 1
+		prerequisite = { focus = BUL_influence_serbian_politics }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_influence_albanian_politics
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
+		relative_position_id = BUL_usbsr
+		x = 2
+		y = 1
+		prerequisite = { focus = BUL_usbsr }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+	focus = {
+		id = BUL_albanian_coup
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
+		relative_position_id = BUL_influence_albanian_politics
+		x = 0
+		y = 1
+		prerequisite = { focus = BUL_influence_albanian_politics }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_influence_bosnian_politics
+		icon = GFX_focus_YUG_divide_bosnia
+		cost = 5
+		relative_position_id = BUL_usbsr
+		x = 4
+		y = 1
+		prerequisite = { focus = BUL_usbsr }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = BUL_bosnian_coup
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		cost = 5
+		relative_position_id = BUL_influence_bosnian_politics
+		x = 0
+		y = 1
+		prerequisite = { focus = BUL_influence_bosnian_politics }
+		available = {
+			has_cosmetic_tag = UBR
+		}
+		completion_reward = { }
+	}
 
 
 	
