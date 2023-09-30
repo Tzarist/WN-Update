@@ -585,8 +585,12 @@
  UBR_Socialism:0 "USBSR"
  UBR_Socialism_ADJ:0 "USBSR"
  UBR_Socialism_DEF:0 "Union Of Soviet Balkan Socialist States"
+ BYZ_Reactionism:0 "Byzantine Empire"
+ BYZ_Reactionism_ADJ:0 "the Byzantine Empire"
+ BYZ_Reactionism_DEF:0 "the Byzantine Empire"
  BUL_Reactionism:0 "Tsardom Of Bulgaria"
- BUL_Reactionism_DEF:0 "Tsardom Of Bulgaria"
+ BUL_Reactionism_ADJ:0 "the Tsardom Of Bulgaria"
+ BUL_Reactionism_DEF:0 "the Tsardom Of Bulgaria"
  BUL_Socialism:0 "People's Republic Of Bulgaria"
  BUL_Socialism_DEF:0 "People's Republic Of Bulgaria"
 

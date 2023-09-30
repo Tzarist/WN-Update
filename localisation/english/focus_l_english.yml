@@ -40,6 +40,18 @@
 
  BUL_take_the_holy_city:0 "Take The Holy City"
 
+ BUL_byzantine_ideas:0 "Byzantine Ideas"
+
+ BUL_conquer_the_hellenic_lands:0 "Conquer The Hellenic Lands"
+
+ BUL_the_third_sea:0 "The Third Sea"
+
+ BUL_the_byzantine_empire:0 "The Byzantine Empire"
+
+ BUL_look_up_north:0 "Look Up North"
+
+ BUL_capitulate_ottoman_empire:0 "Capitulate The Ottoman Empire"
+
 
  BUL_discredit_the_tsar:0 "Discredit The Tsar"
  BUL_discredit_the_tsar_desc:0 "The tsar cannot unlock the true potential of Bulgaria."
@@ -61,8 +73,27 @@
 
  BUL_create_USBSR:0 "Create USBSR"
 
-
  BUL_usbsr:0 "USBSR"
+
+ BUL_influence_romanian_politics:0 "Influence Romanian Politics"
+
+ BUL_romanian_coup:0 "Romanian Coup"
+
+ BUL_influence_serbian_politics:0 "Influence Serbian Politics"
+
+ BUL_serbian_coup:0 "Serbian Coup"
+
+ BUL_influence_albanian_politics:0 "Influence Albanian Politics"
+
+ BUL_albanian_coup:0 "Albanian Coup"
+
+ BUL_influence_bosnian_politics:0 "Influence Bosnian Politics"
+
+ BUL_bosnian_coup:0 "Bosnian Coup"
+
+ BUL_integrate_greek_lands:0 "Integrate Greek Lands"
+
+ BUL_all_united_under_the_hammer_and_sickle:0 "All United Under The Hammer And Sickle"
 
 
  BUL_hungarian_help:0 "Hungarian Help"

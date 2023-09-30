@@ -66,7 +66,7 @@ focus_tree = {
 	focus = {
 		#Reactionist Path
 		id = BUL_appeal_royal_fam_to_masses
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_focus_BUL_restore_the_bulgarian_patriarchate
 		cost = 10
 		x = -2
 		y = 1
@@ -337,6 +337,81 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = BUL_byzantine_ideas
+		icon = GFX_focus_GRE_byzantine_themata
+		cost = 5
+		relative_position_id = BUL_take_the_holy_city
+		x = -3
+		y = 5
+		available = {
+			BUL = {
+				797 = {
+					is_owned_and_controlled_by = BUL
+				}
+			}
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_conquer_the_hellenic_lands
+		icon = GFX_focus_GRE_a_land_of_mountains
+		cost = 5
+		relative_position_id = BUL_byzantine_ideas
+		x = -2
+		y = 1
+		prerequisite = { focus = BUL_byzantine_ideas }
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_the_third_sea
+		icon = GFX_focus_generic_aegean_sea_focus
+		cost = 5
+		relative_position_id = BUL_byzantine_ideas
+		x = 2
+		y = 1
+		prerequisite = { focus = BUL_byzantine_ideas }
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_the_byzantine_empire
+		icon = GFX_focus_GRE_byzantine_themata
+		cost = 5
+		relative_position_id = BUL_byzantine_ideas
+		x = 0
+		y = 2
+		prerequisite = { focus = BUL_the_third_sea }
+		prerequisite = { focus = BUL_conquer_the_hellenic_lands }
+		completion_reward = { set_cosmetic_tag = BYZ }
+	}
+
+	focus = {
+		id = BUL_look_up_north
+		icon = GFX_focus_rom_preserve_romania
+		cost = 5
+		relative_position_id = BUL_the_byzantine_empire
+		x = -1
+		y = 1
+		prerequisite = { focus = BUL_the_byzantine_empire }
+		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_capitulate_ottoman_empire
+		icon = GFX_focus_generic_attack_turkey
+		cost = 5
+		relative_position_id = BUL_the_byzantine_empire
+		x = 1
+		y = 1
+		prerequisite = { focus = BUL_the_byzantine_empire }
+		completion_reward = { }
+	}
+
+
 
 
 	focus = {
@@ -718,12 +793,14 @@ focus_tree = {
 		}
 	}
 
+
+
 	focus = {
 		id = BUL_usbsr
 		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
 		cost = 5
 		relative_position_id = BUL_create_USBSR
-		x = 1
+		x = 5
 		y = 5
 		available = {
 			has_cosmetic_tag = UBR
@@ -850,6 +927,20 @@ focus_tree = {
 			has_cosmetic_tag = UBR
 		}
 		completion_reward = { }
+	}
+
+	focus = {
+		id = BUL_all_united_under_the_hammer_and_sickle
+		icon = GFX_focus_BUL_balkan_socialist_ideas
+		cost = 5
+		relative_position_id = BUL_usbsr
+		x = 0
+		y = 3
+		prerequisite = { focus = BUL_romanian_coup }
+		prerequisite = { focus = BUL_serbian_coup }
+		prerequisite = { focus = BUL_integrate_greek_lands }
+		prerequisite = { focus = BUL_albanian_coup }
+		prerequisite = { focus = BUL_bosnian_coup }
 	}
 
 
@@ -989,5 +1080,17 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 15
 		}
+	}
+
+
+
+	### Industry Branch
+	focus = {
+		id = BUL_bulgarian_industrialization
+		icon = GFX_focus_generic_industry_1
+		cost = 5
+		x = 35
+		y = 0
+		completion_reward = { }
 	}
 }
