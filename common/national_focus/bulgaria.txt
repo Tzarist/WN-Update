@@ -344,7 +344,7 @@ focus_tree = {
 		cost = 5
 		relative_position_id = BUL_take_the_holy_city
 		x = -3
-		y = 5
+		y = 3
 		available = {
 			BUL = {
 				797 = {
@@ -801,7 +801,7 @@ focus_tree = {
 		cost = 5
 		relative_position_id = BUL_create_USBSR
 		x = 5
-		y = 5
+		y = 3
 		available = {
 			has_cosmetic_tag = UBR
 		}
