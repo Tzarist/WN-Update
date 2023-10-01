@@ -3,7 +3,6 @@
  BUL_the_bulgarian_nation:0 "The Bulgarian Nation"
  BUL_the_bulgarian_nation_desc:0 "Bulgaria must not rely on it's allies [SOV.GetName] and [FRA.GetName] alone, we must prepare for anything."
 
-
  BUL_enforce_the_monarchist_rule:0 "Enforce The Monarchist Rule"
  BUL_enforce_the_monarchist_rule_desc:0 "Only the royal family can keep this great nation strong."
 
@@ -132,6 +131,32 @@
  BUL_focus_on_agriculture:0 "Focus On Agriculture"
 
  BUL_khanate_of_bulgaria:0 "Khanate Of Bulgaria"
+
+ BUL_bulgarian_industrialization:0 "Bulgarian Industrialization"
+
+ BUL_eastern_agrarianism:0 "Eastern Agrarianism"
+
+ BUL_southern_agrarianism:0 "Southern Agrarianism"
+
+ BUL_western_agrarianism:0 "Western Agrarianism"
+
+ BUL_grain_export:0 "Grain Export"
+
+ BUL_southern_militarization:0 "Southern Militarization"
+
+ BUL_western_militarization:0 "Western Militarization"
+
+ BUL_eastern_militarization:0 "Eastern Militarization"
+
+ BUL_powerful_military:0 "Powerful Military"
+
+ BUL_expand_capital_infrastructure:0 "Expand Capital Infrastructure"
+
+ BUL_expand_southern_infrastructure:0 "Expand Southern Infrastrucure"
+
+ BUL_expand_eastern_infrastructure:0 "Expand Eastern Infrastructure"
+
+ BUL_university_funds:0 "University Funds"
 
 
  NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
